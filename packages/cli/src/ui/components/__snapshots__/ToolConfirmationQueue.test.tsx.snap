@@ -1,128 +1,111 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ToolConfirmationQueue > calculates availableContentHeight based on availableTerminalHeight from UI state 1`] = `
-"╭──────────────────────────────────────────────────────────────────────────────╮
-│ Action Required                                                              │
-│                                                                              │
-│ ?  replace edit file                                                         │
-│                                                                              │
-│ ... 49 hidden (Ctrl+O) ...                                                   │
-│ 50 line                                                                      │
-│ Apply this change?                                                           │
-│                                                                              │
-│ ● 1. Allow once                                                              │
-│   2. Allow for this session                                                  │
-│   3. Modify with external editor                                             │
-│   4. No, suggest changes (esc)                                               │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
-"
-`;
-
 exports[`ToolConfirmationQueue > does not render expansion hint when constrainHeight is false 1`] = `
-"╭──────────────────────────────────────────────────────────────────────────────╮
-│ Action Required                                                              │
-│                                                                              │
-│ ?  replace edit file                                                         │
-│                                                                              │
-│ ╭──────────────────────────────────────────────────────────────────────────╮ │
-│ │                                                                          │ │
-│ │ No changes detected.                                                     │ │
-│ │                                                                          │ │
-│ ╰──────────────────────────────────────────────────────────────────────────╯ │
-│ Apply this change?                                                           │
-│                                                                              │
-│ ● 1. Allow once                                                              │
-│   2. Allow for this session                                                  │
-│   3. Modify with external editor                                             │
-│   4. No, suggest changes (esc)                                               │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
 "
-`;
+  ERROR  Cannot read properties of null (reading 'useState')
 
-exports[`ToolConfirmationQueue > provides more height for ask_user by subtracting less overhead 1`] = `
-"╭──────────────────────────────────────────────────────────────────────────────╮
-│ Answer Questions                                                             │
-│                                                                              │
-│ Line 1                                                                       │
-│ Line 2                                                                       │
-│ Line 3                                                                       │
-│ Line 4                                                                       │
-│ Line 5                                                                       │
-│ Line 6                                                                       │
-│                                                                              │
-│ ● 1.  Option 1                                                               │
-│       Desc                                                                   │
-│   2.  Enter a custom value                                                   │
-│                                                                              │
-│ Enter to select · ↑/↓ to navigate · Esc to cancel                            │
-╰──────────────────────────────────────────────────────────────────────────────╯
+ /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:12
+ 63:33
+
+ 1260:       return resolveDispatcher().useRef(initialValue);
+ 1261:     };
+ 1262:     exports.useState = function (initialState) {
+ 1263:       return resolveDispatcher().useState(initialState);
+ 1264:     };
+ 1265:     exports.useSyncExternalStore = function (
+ 1266:       subscribe,
+
+ -process.env.NODE_ENV.expo 
+  rts.useState             (/home/sephiroth/Work/gemini-cli/node_modules/react/
+                           cjs/react.development.js:1263:33)
+ - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
+ -Object.react-stack-bot 
+  om-frame              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/rea
+                        ct-reconciler@0.32.0_react@19.2.4/node_modules/react-re
+                        conciler/cjs/react-reconciler.development.js:15859:20)
+
+ -renderWithHo 
+  ks          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
+              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
+              econciler.development.js:3221:22)
+ -updateFunctionCom 
+  onent            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-re
+                   conciler@0.32.0_react@19.2.4/node_modules/react-reconciler/c
+                   js/react-reconciler.development.js:6475:19)
+ -beginWor 
+          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@
+          0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconcile
+          r.development.js:8009:18)
+ -runWithFiberIn 
+  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
+                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
+                ct-reconciler.development.js:1738:13)
+ -performUnitOfW 
+  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
+                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
+                ct-reconciler.development.js:12834:22)
+ -workLoopSy 
+  c         (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconcile
+            r@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-recon
+            ciler.development.js:12644:41)
+ -renderRootSy 
+  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
+              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
+              econciler.development.js:12624:11)
 "
 `;
 
 exports[`ToolConfirmationQueue > renders AskUser tool confirmation with Success color 1`] = `
-"╭──────────────────────────────────────────────────────────────────────────────╮
-│ Answer Questions                                                             │
-│                                                                              │
-│ Review your answers:                                                         │
-│                                                                              │
-│                                                                              │
-│ Enter to submit · Tab/Shift+Tab to edit answers · Esc to cancel              │
-╰──────────────────────────────────────────────────────────────────────────────╯
 "
-`;
+  ERROR  Cannot read properties of null (reading 'useState')
 
-exports[`ToolConfirmationQueue > renders ExitPlanMode tool confirmation with Success color 1`] = `
-"╭──────────────────────────────────────────────────────────────────────────────╮
-│ Ready to start implementation?                                               │
-│                                                                              │
-│ Plan content goes here                                                       │
-│                                                                              │
-│ ● 1.  Yes, automatically accept edits                                        │
-│       Approves plan and allows tools to run automatically                    │
-│   2.  Yes, manually accept edits                                             │
-│       Approves plan but requires confirmation for each tool                  │
-│   3.  Type your feedback...                                                  │
-│                                                                              │
-│ Enter to select · ↑/↓ to navigate · Ctrl+X to edit plan · Esc to cancel      │
-╰──────────────────────────────────────────────────────────────────────────────╯
-"
-`;
+ /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:12
+ 63:33
 
-exports[`ToolConfirmationQueue > renders expansion hint when content is long and constrained 1`] = `
-"╭──────────────────────────────────────────────────────────────────────────────╮
-│ Action Required                                                              │
-│                                                                              │
-│ ?  replace edit file                                                         │
-│                                                                              │
-│ ... 49 hidden (Ctrl+O) ...                                                   │
-│ 50 line                                                                      │
-│ Apply this change?                                                           │
-│                                                                              │
-│ ● 1. Allow once                                                              │
-│   2. Allow for this session                                                  │
-│   3. Modify with external editor                                             │
-│   4. No, suggest changes (esc)                                               │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
- Press Ctrl+O to show more lines
-"
-`;
+ 1260:       return resolveDispatcher().useRef(initialValue);
+ 1261:     };
+ 1262:     exports.useState = function (initialState) {
+ 1263:       return resolveDispatcher().useState(initialState);
+ 1264:     };
+ 1265:     exports.useSyncExternalStore = function (
+ 1266:       subscribe,
 
-exports[`ToolConfirmationQueue > renders the confirming tool with progress indicator 1`] = `
-"╭──────────────────────────────────────────────────────────────────────────────╮
-│ Action Required                                                       1 of 3 │
-│                                                                              │
-│ ?  ls list files                                                             │
-│                                                                              │
-│ ls                                                                           │
-│ Allow execution of: 'ls'?                                                    │
-│                                                                              │
-│ ● 1. Allow once                                                              │
-│   2. Allow for this session                                                  │
-│   3. No, suggest changes (esc)                                               │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
+ -process.env.NODE_ENV.expo 
+  rts.useState             (/home/sephiroth/Work/gemini-cli/node_modules/react/
+                           cjs/react.development.js:1263:33)
+ - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
+ -Object.react-stack-bot 
+  om-frame              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/rea
+                        ct-reconciler@0.32.0_react@19.2.4/node_modules/react-re
+                        conciler/cjs/react-reconciler.development.js:15859:20)
+
+ -renderWithHo 
+  ks          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
+              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
+              econciler.development.js:3221:22)
+ -updateFunctionCom 
+  onent            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-re
+                   conciler@0.32.0_react@19.2.4/node_modules/react-reconciler/c
+                   js/react-reconciler.development.js:6475:19)
+ -beginWor 
+          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@
+          0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconcile
+          r.development.js:8009:18)
+ -runWithFiberIn 
+  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
+                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
+                ct-reconciler.development.js:1738:13)
+ -performUnitOfW 
+  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
+                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
+                ct-reconciler.development.js:12834:22)
+ -workLoopSy 
+  c         (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconcile
+            r@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-recon
+            ciler.development.js:12644:41)
+ -renderRootSy 
+  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
+              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
+              econciler.development.js:12624:11)
 "
 `;

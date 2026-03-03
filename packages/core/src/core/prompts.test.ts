@@ -89,7 +89,7 @@ describe('Core System Prompt (prompts.ts)', () => {
       }),
       getEnableShellOutputEfficiency: vi.fn().mockReturnValue(true),
       storage: {
-        getProjectTempDir: vi.fn().mockReturnValue('/tmp/project-temp'),
+        getWorkspaceTempDir: vi.fn().mockReturnValue('/tmp/project-temp'),
         getPlansDir: vi.fn().mockReturnValue('/tmp/project-temp/plans'),
       },
       isInteractive: vi.fn().mockReturnValue(true),
@@ -296,7 +296,7 @@ describe('Core System Prompt (prompts.ts)', () => {
       '<extension_context>\nextension context\n</extension_context>',
     );
     expect(prompt).toContain(
-      '<project_context>\nproject context\n</project_context>',
+      '<workspace_context>\nproject context\n</workspace_context>',
     );
     expect(prompt).toMatchSnapshot();
     // Should also include conflict resolution rules when hierarchical memory is present
@@ -384,7 +384,7 @@ describe('Core System Prompt (prompts.ts)', () => {
         }),
         getEnableShellOutputEfficiency: vi.fn().mockReturnValue(true),
         storage: {
-          getProjectTempDir: vi.fn().mockReturnValue('/tmp/project-temp'),
+          getWorkspaceTempDir: vi.fn().mockReturnValue('/tmp/project-temp'),
         },
         isInteractive: vi.fn().mockReturnValue(false),
         isInteractiveShellEnabled: vi.fn().mockReturnValue(false),

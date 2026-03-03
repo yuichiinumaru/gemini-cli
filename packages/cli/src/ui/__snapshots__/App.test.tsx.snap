@@ -2,151 +2,141 @@
 
 exports[`App > Snapshots > renders default layout correctly 1`] = `
 "
- ███         █████████ 
-░░░███      ███░░░░░███
-  ░░░███   ███     ░░░ 
-    ░░░███░███         
-     ███░ ░███    █████
-   ███░   ░░███  ░░███ 
- ███░      ░░█████████ 
-░░░         ░░░░░░░░░  
+  ERROR  Cannot read properties of null (reading 'useState')
 
-Tips for getting started:
-1. Ask questions, edit files, or run commands.
-2. Be specific for the best results.
-3. Create GEMINI.md files to customize your interactions with Gemini.
-4. /help for more information.
+ /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
 
+ 1260:       return resolveDispatcher().useRef(initialValue);
+ 1261:     };
+ 1262:     exports.useState = function (initialState) {
+ 1263:       return resolveDispatcher().useState(initialState);
+ 1264:     };
+ 1265:     exports.useSyncExternalStore = function (
+ 1266:       subscribe,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Notifications
-Composer
+ -process.env.NODE_ENV.exports. 
+  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
+                               pment.js:1263:33)
+ - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
+ -Object.react-stack-bott 
+  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
+                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
+                         ent.js:15859:20)
+ -renderWithHoo 
+  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
+               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
+ -updateFunctionComp 
+  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
+                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
+                    5:19)
+ -beginWor 
+          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
+          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
+ -runWithFiberIn 
+  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
+ -performUnitOfW 
+  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
+ -workLoopSyn 
+             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
+             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
+ -renderRootSy 
+  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
+              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
 "
 `;
 
 exports[`App > Snapshots > renders screen reader layout correctly 1`] = `
-"Notifications
-Footer
+"
+  ERROR  Cannot read properties of null (reading 'useState')
 
- ███         █████████ 
-░░░███      ███░░░░░███
-  ░░░███   ███     ░░░ 
-    ░░░███░███         
-     ███░ ░███    █████
-   ███░   ░░███  ░░███ 
- ███░      ░░█████████ 
-░░░         ░░░░░░░░░  
+ /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
 
-Tips for getting started:
-1. Ask questions, edit files, or run commands.
-2. Be specific for the best results.
-3. Create GEMINI.md files to customize your interactions with Gemini.
-4. /help for more information.
-Composer
+ 1260:       return resolveDispatcher().useRef(initialValue);
+ 1261:     };
+ 1262:     exports.useState = function (initialState) {
+ 1263:       return resolveDispatcher().useState(initialState);
+ 1264:     };
+ 1265:     exports.useSyncExternalStore = function (
+ 1266:       subscribe,
+
+ -process.env.NODE_ENV.exports. 
+  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
+                               pment.js:1263:33)
+ - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
+ -Object.react-stack-bott 
+  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
+                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
+                         ent.js:15859:20)
+ -renderWithHoo 
+  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
+               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
+ -updateFunctionComp 
+  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
+                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
+                    5:19)
+ -beginWor 
+          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
+          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
+ -runWithFiberIn 
+  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
+ -performUnitOfW 
+  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
+ -workLoopSyn 
+             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
+             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
+ -renderRootSy 
+  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
+              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
 "
 `;
 
 exports[`App > Snapshots > renders with dialogs visible 1`] = `
 "
- ███         █████████ 
-░░░███      ███░░░░░███
-  ░░░███   ███     ░░░ 
-    ░░░███░███         
-     ███░ ░███    █████
-   ███░   ░░███  ░░███ 
- ███░      ░░█████████ 
-░░░         ░░░░░░░░░  
+  ERROR  Cannot read properties of null (reading 'useState')
 
+ /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
 
+ 1260:       return resolveDispatcher().useRef(initialValue);
+ 1261:     };
+ 1262:     exports.useState = function (initialState) {
+ 1263:       return resolveDispatcher().useState(initialState);
+ 1264:     };
+ 1265:     exports.useSyncExternalStore = function (
+ 1266:       subscribe,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Notifications
-DialogManager
-"
-`;
-
-exports[`App > should render ToolConfirmationQueue along with Composer when tool is confirming and experiment is on 1`] = `
-"
- ███         █████████ 
-░░░███      ███░░░░░███
-  ░░░███   ███     ░░░ 
-    ░░░███░███         
-     ███░ ░███    █████
-   ███░   ░░███  ░░███ 
- ███░      ░░█████████ 
-░░░         ░░░░░░░░░  
-
-Tips for getting started:
-1. Ask questions, edit files, or run commands.
-2. Be specific for the best results.
-3. Create GEMINI.md files to customize your interactions with Gemini.
-4. /help for more information.
-HistoryItemDisplay
-╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Action Required                                                                                  │
-│                                                                                                  │
-│ ?  ls list directory                                                                             │
-│                                                                                                  │
-│ ls                                                                                               │
-│ Allow execution of: 'ls'?                                                                        │
-│                                                                                                  │
-│ ● 1. Allow once                                                                                  │
-│   2. Allow for this session                                                                      │
-│   3. No, suggest changes (esc)                                                                   │
-│                                                                                                  │
-╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
-
-
-
-
-
-
-
-
-Notifications
-Composer
+ -process.env.NODE_ENV.exports. 
+  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
+                               pment.js:1263:33)
+ - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
+ -Object.react-stack-bott 
+  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
+                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
+                         ent.js:15859:20)
+ -renderWithHoo 
+  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
+               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
+ -updateFunctionComp 
+  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
+                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
+                    5:19)
+ -beginWor 
+          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
+          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
+ -runWithFiberIn 
+  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
+ -performUnitOfW 
+  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
+ -workLoopSyn 
+             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
+             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
+ -renderRootSy 
+  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
+              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
 "
 `;

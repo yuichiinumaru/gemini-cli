@@ -1,123 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="275" viewBox="0 0 920 275">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="751" viewBox="0 0 920 751">
   <style>
     text { font-family: Consolas, "Courier New", monospace; font-size: 14px; dominant-baseline: text-before-edge; white-space: pre; }
   </style>
-  <rect width="920" height="275" fill="#000000" />
+  <rect width="920" height="751" fill="#000000" />
   <g transform="translate(10, 10)">
-    <text x="9" y="19" fill="#4d93e2" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="18" y="19" fill="#5291e0" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="27" y="19" fill="#588ede" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="117" y="19" fill="#8f77c0" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="126" y="19" fill="#9575b8" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="135" y="19" fill="#9b73b1" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="144" y="19" fill="#a171aa" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="153" y="19" fill="#a670a3" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="162" y="19" fill="#ac6e9c" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="171" y="19" fill="#b26c95" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="180" y="19" fill="#b86a8d" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="189" y="19" fill="#bd6986" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="0" y="36" fill="#4796e4" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="9" y="36" fill="#4d93e2" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="18" y="36" fill="#5291e0" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="27" y="36" fill="#588ede" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="36" y="36" fill="#5d8cdc" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="45" y="36" fill="#6389da" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="108" y="36" fill="#8a78c7" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="117" y="36" fill="#8f77c0" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="126" y="36" fill="#9575b8" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="135" y="36" fill="#9b73b1" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="144" y="36" fill="#a171aa" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="153" y="36" fill="#a670a3" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="162" y="36" fill="#ac6e9c" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="171" y="36" fill="#b26c95" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="180" y="36" fill="#b86a8d" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="189" y="36" fill="#bd6986" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="198" y="36" fill="#c3677f" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="18" y="53" fill="#5291e0" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="27" y="53" fill="#588ede" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="36" y="53" fill="#5d8cdc" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="45" y="53" fill="#6389da" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="54" y="53" fill="#6887d8" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="63" y="53" fill="#6e84d6" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="99" y="53" fill="#847ace" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="108" y="53" fill="#8a78c7" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="117" y="53" fill="#8f77c0" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="171" y="53" fill="#b26c95" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="180" y="53" fill="#b86a8d" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="189" y="53" fill="#bd6986" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="36" y="70" fill="#5d8cdc" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="45" y="70" fill="#6389da" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="54" y="70" fill="#6887d8" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="63" y="70" fill="#6e84d6" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="72" y="70" fill="#7382d4" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="81" y="70" fill="#797fd2" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="90" y="70" fill="#7e7dd0" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="99" y="70" fill="#847ace" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="108" y="70" fill="#8a78c7" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="117" y="70" fill="#8f77c0" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="45" y="87" fill="#6389da" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="54" y="87" fill="#6887d8" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="63" y="87" fill="#6e84d6" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="72" y="87" fill="#7382d4" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="90" y="87" fill="#7e7dd0" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="99" y="87" fill="#847ace" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="108" y="87" fill="#8a78c7" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="117" y="87" fill="#8f77c0" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="162" y="87" fill="#ac6e9c" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="171" y="87" fill="#b26c95" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="180" y="87" fill="#b86a8d" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="189" y="87" fill="#bd6986" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="198" y="87" fill="#c3677f" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="27" y="104" fill="#588ede" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="36" y="104" fill="#5d8cdc" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="45" y="104" fill="#6389da" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="54" y="104" fill="#6887d8" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="90" y="104" fill="#7e7dd0" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="99" y="104" fill="#847ace" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="108" y="104" fill="#8a78c7" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="117" y="104" fill="#8f77c0" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="126" y="104" fill="#9575b8" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="153" y="104" fill="#a670a3" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="162" y="104" fill="#ac6e9c" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="171" y="104" fill="#b26c95" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="180" y="104" fill="#b86a8d" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="189" y="104" fill="#bd6986" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="9" y="121" fill="#4d93e2" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="18" y="121" fill="#5291e0" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="27" y="121" fill="#588ede" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="36" y="121" fill="#5d8cdc" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="99" y="121" fill="#847ace" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="108" y="121" fill="#8a78c7" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="117" y="121" fill="#8f77c0" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="126" y="121" fill="#9575b8" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="135" y="121" fill="#9b73b1" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="144" y="121" fill="#a171aa" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="153" y="121" fill="#a670a3" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="162" y="121" fill="#ac6e9c" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="171" y="121" fill="#b26c95" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="180" y="121" fill="#b86a8d" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="189" y="121" fill="#bd6986" textLength="9" lengthAdjust="spacingAndGlyphs">█</text>
-    <text x="0" y="138" fill="#4796e4" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="9" y="138" fill="#4d93e2" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="18" y="138" fill="#5291e0" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="108" y="138" fill="#8a78c7" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="117" y="138" fill="#8f77c0" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="126" y="138" fill="#9575b8" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="135" y="138" fill="#9b73b1" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="144" y="138" fill="#a171aa" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="153" y="138" fill="#a670a3" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="162" y="138" fill="#ac6e9c" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="171" y="138" fill="#b26c95" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="180" y="138" fill="#b86a8d" textLength="9" lengthAdjust="spacingAndGlyphs">░</text>
-    <text x="0" y="172" fill="#f9e2af" textLength="864" lengthAdjust="spacingAndGlyphs">╭──────────────────────────────────────────────────────────────────────────────────────────────╮</text>
-    <text x="0" y="189" fill="#f9e2af" textLength="9" lengthAdjust="spacingAndGlyphs">│</text>
-    <text x="9" y="189" fill="#ffffff" textLength="846" lengthAdjust="spacingAndGlyphs"> ⊷  google_web_search                                                                         </text>
-    <text x="855" y="189" fill="#f9e2af" textLength="9" lengthAdjust="spacingAndGlyphs">│</text>
-    <text x="0" y="206" fill="#f9e2af" textLength="9" lengthAdjust="spacingAndGlyphs">│</text>
-    <text x="855" y="206" fill="#f9e2af" textLength="9" lengthAdjust="spacingAndGlyphs">│</text>
-    <text x="0" y="223" fill="#f9e2af" textLength="9" lengthAdjust="spacingAndGlyphs">│</text>
-    <text x="9" y="223" fill="#ffffff" textLength="846" lengthAdjust="spacingAndGlyphs"> Searching...                                                                                 </text>
-    <text x="855" y="223" fill="#f9e2af" textLength="9" lengthAdjust="spacingAndGlyphs">│</text>
-    <text x="0" y="240" fill="#f9e2af" textLength="864" lengthAdjust="spacingAndGlyphs">╰──────────────────────────────────────────────────────────────────────────────────────────────╯</text>
+    <rect x="9" y="17" width="63" height="17" fill="#cd0000" />
+    <text x="9" y="19" fill="#e5e5e5" textLength="63" lengthAdjust="spacingAndGlyphs"> ERROR </text>
+    <text x="72" y="19" fill="#ffffff" textLength="828" lengthAdjust="spacingAndGlyphs"> Cannot read properties of null (reading &apos;useState&apos;)                                        </text>
+    <text x="0" y="53" fill="#ffffff" textLength="900" lengthAdjust="spacingAndGlyphs"> /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33                </text>
+    <text x="0" y="87" fill="#ffffff" textLength="900" lengthAdjust="spacingAndGlyphs"> 1260:       return resolveDispatcher().useRef(initialValue);                                       </text>
+    <text x="0" y="104" fill="#ffffff" textLength="900" lengthAdjust="spacingAndGlyphs"> 1261:     };                                                                                       </text>
+    <text x="0" y="121" fill="#ffffff" textLength="900" lengthAdjust="spacingAndGlyphs"> 1262:     exports.useState = function (initialState) {                                             </text>
+    <rect x="9" y="136" width="558" height="17" fill="#cd0000" />
+    <text x="9" y="138" fill="#e5e5e5" textLength="558" lengthAdjust="spacingAndGlyphs">1263:       return resolveDispatcher().useState(initialState);</text>
+    <text x="0" y="155" fill="#ffffff" textLength="900" lengthAdjust="spacingAndGlyphs"> 1264:     };                                                                                       </text>
+    <text x="0" y="172" fill="#ffffff" textLength="900" lengthAdjust="spacingAndGlyphs"> 1265:     exports.useSyncExternalStore = function (                                                </text>
+    <text x="0" y="189" fill="#ffffff" textLength="900" lengthAdjust="spacingAndGlyphs"> 1266:       subscribe,                                                                             </text>
+    <text x="0" y="223" fill="#ffffff" textLength="279" lengthAdjust="spacingAndGlyphs"> -process.env.NODE_ENV.exports.</text>
+    <text x="0" y="240" fill="#ffffff" textLength="279" lengthAdjust="spacingAndGlyphs">  seState                      </text>
+    <text x="279" y="240" fill="#7f7f7f" textLength="612" lengthAdjust="spacingAndGlyphs">(/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo</text>
+    <text x="279" y="257" fill="#7f7f7f" textLength="153" lengthAdjust="spacingAndGlyphs">pment.js:1263:33)</text>
+    <text x="0" y="274" fill="#ffffff" textLength="162" lengthAdjust="spacingAndGlyphs"> - VimModeProvider</text>
+    <text x="162" y="274" fill="#7f7f7f" textLength="387" lengthAdjust="spacingAndGlyphs"> (src/ui/contexts/VimModeContext.tsx:36:39)</text>
+    <text x="0" y="291" fill="#ffffff" textLength="225" lengthAdjust="spacingAndGlyphs"> -Object.react-stack-bott</text>
+    <text x="0" y="308" fill="#ffffff" textLength="225" lengthAdjust="spacingAndGlyphs">  m-frame                </text>
+    <text x="225" y="308" fill="#7f7f7f" textLength="666" lengthAdjust="spacingAndGlyphs">(/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.</text>
+    <text x="225" y="325" fill="#7f7f7f" textLength="666" lengthAdjust="spacingAndGlyphs">0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm</text>
+    <text x="225" y="342" fill="#7f7f7f" textLength="144" lengthAdjust="spacingAndGlyphs">ent.js:15859:20)</text>
+    <text x="0" y="359" fill="#ffffff" textLength="135" lengthAdjust="spacingAndGlyphs"> -renderWithHoo</text>
+    <text x="0" y="376" fill="#ffffff" textLength="135" lengthAdjust="spacingAndGlyphs">  s            </text>
+    <text x="135" y="376" fill="#7f7f7f" textLength="756" lengthAdjust="spacingAndGlyphs">(/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19</text>
+    <text x="135" y="393" fill="#7f7f7f" textLength="711" lengthAdjust="spacingAndGlyphs">.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)</text>
+    <text x="0" y="410" fill="#ffffff" textLength="180" lengthAdjust="spacingAndGlyphs"> -updateFunctionComp</text>
+    <text x="0" y="427" fill="#ffffff" textLength="180" lengthAdjust="spacingAndGlyphs">  nent              </text>
+    <text x="180" y="427" fill="#7f7f7f" textLength="711" lengthAdjust="spacingAndGlyphs">(/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea</text>
+    <text x="180" y="444" fill="#7f7f7f" textLength="711" lengthAdjust="spacingAndGlyphs">ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647</text>
+    <text x="180" y="461" fill="#7f7f7f" textLength="45" lengthAdjust="spacingAndGlyphs">5:19)</text>
+    <text x="0" y="478" fill="#ffffff" textLength="90" lengthAdjust="spacingAndGlyphs"> -beginWor</text>
+    <text x="90" y="495" fill="#7f7f7f" textLength="801" lengthAdjust="spacingAndGlyphs">(/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/</text>
+    <text x="90" y="512" fill="#7f7f7f" textLength="666" lengthAdjust="spacingAndGlyphs">node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)</text>
+    <text x="0" y="529" fill="#ffffff" textLength="144" lengthAdjust="spacingAndGlyphs"> -runWithFiberIn</text>
+    <text x="0" y="546" fill="#ffffff" textLength="144" lengthAdjust="spacingAndGlyphs">  EV            </text>
+    <text x="144" y="546" fill="#7f7f7f" textLength="747" lengthAdjust="spacingAndGlyphs">(/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1</text>
+    <text x="144" y="563" fill="#7f7f7f" textLength="720" lengthAdjust="spacingAndGlyphs">9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)</text>
+    <text x="0" y="580" fill="#ffffff" textLength="144" lengthAdjust="spacingAndGlyphs"> -performUnitOfW</text>
+    <text x="0" y="597" fill="#ffffff" textLength="144" lengthAdjust="spacingAndGlyphs">  rk            </text>
+    <text x="144" y="597" fill="#7f7f7f" textLength="747" lengthAdjust="spacingAndGlyphs">(/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1</text>
+    <text x="144" y="614" fill="#7f7f7f" textLength="729" lengthAdjust="spacingAndGlyphs">9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)</text>
+    <text x="0" y="631" fill="#ffffff" textLength="117" lengthAdjust="spacingAndGlyphs"> -workLoopSyn</text>
+    <text x="117" y="648" fill="#7f7f7f" textLength="774" lengthAdjust="spacingAndGlyphs">(/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2</text>
+    <text x="117" y="665" fill="#7f7f7f" textLength="702" lengthAdjust="spacingAndGlyphs">.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)</text>
+    <text x="0" y="682" fill="#ffffff" textLength="126" lengthAdjust="spacingAndGlyphs"> -renderRootSy</text>
+    <text x="0" y="699" fill="#ffffff" textLength="126" lengthAdjust="spacingAndGlyphs">  c           </text>
+    <text x="126" y="699" fill="#7f7f7f" textLength="765" lengthAdjust="spacingAndGlyphs">(/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.</text>
+    <text x="126" y="716" fill="#7f7f7f" textLength="711" lengthAdjust="spacingAndGlyphs">2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)</text>
   </g>
 </svg>

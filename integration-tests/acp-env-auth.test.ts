@@ -55,15 +55,19 @@ describe.skip('ACP Environment and Auth', () => {
 
       const bundlePath = join(import.meta.dirname, '..', 'bundle/gemini.js');
 
+      const customEnv = {
+        ...process.env,
+        GEMINI_CLI_HOME: rig.homeDir!,
+        VERBOSE: 'true',
+      };
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      delete (customEnv as any).GEMINI_API_KEY;
+
       child = spawn('node', [bundlePath, '--experimental-acp'], {
         cwd: rig.homeDir!,
         stdio: ['pipe', 'pipe', 'inherit'],
-        env: {
-          ...process.env,
-          GEMINI_CLI_HOME: rig.homeDir!,
-          GEMINI_API_KEY: undefined,
-          VERBOSE: 'true',
-        },
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        env: customEnv as any,
       });
 
       const input = Writable.toWeb(child.stdin!);
@@ -120,15 +124,19 @@ describe.skip('ACP Environment and Auth', () => {
 
       const bundlePath = join(import.meta.dirname, '..', 'bundle/gemini.js');
 
+      const customEnv = {
+        ...process.env,
+        GEMINI_CLI_HOME: rig.homeDir!,
+        VERBOSE: 'true',
+      };
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      delete (customEnv as any).GEMINI_API_KEY;
+
       child = spawn('node', [bundlePath, '--experimental-acp'], {
         cwd: rig.homeDir!,
         stdio: ['pipe', 'pipe', 'inherit'],
-        env: {
-          ...process.env,
-          GEMINI_CLI_HOME: rig.homeDir!,
-          GEMINI_API_KEY: undefined,
-          VERBOSE: 'true',
-        },
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        env: customEnv as any,
       });
 
       const input = Writable.toWeb(child.stdin!);

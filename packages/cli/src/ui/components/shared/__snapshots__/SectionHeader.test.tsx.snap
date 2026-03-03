@@ -1,25 +1,584 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`<SectionHeader /> > 'renders correctly in a narrow contain…' 1`] = `
-"─────────────────────────
-Narrow Container
+"
+  ERRO Cannot read
+      properties of null
+      (reading
+      'useState')
+
+ /home/sephiroth/Work/ge
+ mini-cli/node_modules/r
+ eact/cjs/react.developm
+ ent.js:1263:33
+
+ 1260       return
+ :   resolveDispatcher()
+     .useRef(initialValu
+     e);
+ 1261:     };
+ 1262
+ :   exports.useState =
+     function
+     (initialState) {
+ 1263       return
+ :   resolveDispatcher()
+     .useState(initialSt
+     ate);
+ 1264:     };
+ 1265
+ :   exports.useSyncExte
+     rnalStore =
+     function (
+ 1266:       subscribe,
+
+ process.env 
+ NODE_ENV.ex(/home/sephi
+ orts.useStaroth/Work/ge
+ e          mini-cli/nod
+            e_modules/re
+            act/cjs/reac
+            t.developmen
+            t.js:1263:33
+            )
+ -VimModeP 
+  ovider  (src/ui/contex
+          ts/VimModeCont
+          ext.tsx:36:39)
+
+ Object.reac 
+ -stack-bott(/home/sephi
+ m-frame    roth/Work/ge
+            mini-cli/nod
+            e_modules/.p
+            npm/react-re
+            conciler@0.3
+            2.0_react@19
+            .2.4/node_mo
+            dules/react-
+            reconciler/c
+            js/react-rec
+            onciler.deve
+            lopment.js:1
+            5859:20)
+
+ -renderWi 
+  hHooks  (/home/sephiro
+          th/Work/gemini
+          -cli/node_modu
+          les/.pnpm/reac
+          t-reconciler@0
+          .32.0_react@19
+          .2.4/node_modu
+          les/react-reco
+          nciler/cjs/rea
+          ct-reconciler.
+          development.js
+          :3221:22)
+
+ updateFunct 
+ onComponent(/home/sephi
+            roth/Work/ge
+            mini-cli/nod
+            e_modules/.p
+            npm/react-re
+            conciler@0.3
+            2.0_react@19
+            .2.4/node_mo
+            dules/react-
+            reconciler/c
+            js/react-rec
+            onciler.deve
+            lopment.js:6
+            475:19)
+
+ -beginW 
+  rk    (/home/sephiroth
+        /Work/gemini-cli
+        /node_modules/.p
+        npm/react-reconc
+        iler@0.32.0_reac
+        t@19.2.4/node_mo
+        dules/react-reco
+        nciler/cjs/react
+        -reconciler.deve
+        lopment.js:8009:
+        18)
+ -runWithFi 
+  erInDEV  (/home/sephir
+           oth/Work/gemi
+           ni-cli/node_m
+           odules/.pnpm/
+           react-reconci
+           ler@0.32.0_re
+           act@19.2.4/no
+           de_modules/re
+           act-reconcile
+           r/cjs/react-r
+           econciler.dev
+           elopment.js:1
+           738:13)
+
+ -performUn 
+  tOfWork  (/home/sephir
+           oth/Work/gemi
+           ni-cli/node_m
+           odules/.pnpm/
+           react-reconci
+           ler@0.32.0_re
+           act@19.2.4/no
+           de_modules/re
+           act-reconcile
+           r/cjs/react-r
+           econciler.dev
+           elopment.js:1
+           2834:22)
+
+ -workLoo 
+  Sync   (/home/sephirot
+         h/Work/gemini-c
+         li/node_modules
+         /.pnpm/react-re
+         conciler@0.32.0
+         _react@19.2.4/n
+         ode_modules/rea
+         ct-reconciler/c
+         js/react-reconc
+         iler.developmen
+         t.js:12644:41)
+
+ -renderRo 
+  tSync   (/home/sephiro
+          th/Work/gemini
+          -cli/node_modu
+          les/.pnpm/reac
+          t-reconciler@0
+          .32.0_react@19
+          .2.4/node_modu
+          les/react-reco
+          nciler/cjs/rea
+          ct-reconciler.
+          development.js
+          :12624:11)
 "
 `;
 
 exports[`<SectionHeader /> > 'renders correctly when title is trunc…' 1`] = `
-"────────────────────
-Very Long Header Ti…
+"
+  ERRO Cannot read
+      properties of
+      null (reading
+      'useState')
+
+
+ /home/sephiroth/Wo
+ rk/gemini-cli/node
+ _modules/react/cjs
+ /react.development
+ .js:1263:33
+
+ 126       return
+ 0: resolveDispatch
+    er().useRef(ini
+    tialValue);
+ 1261:     };
+ 126
+ 2: exports.useStat
+    e = function
+    (initialState)
+    {
+ 126       return
+ 3: resolveDispatch
+    er().useState(i
+    nitialState);
+
+ 1264:     };
+ 126
+ 5: exports.useSync
+    ExternalStore =
+    function (
+ 1266
+ :   subscribe,
+
+ process.e 
+ v.NODE_EN(/home/se
+ .exports.phiroth/W
+ seState  ork/gemin
+          i-cli/nod
+          e_modules
+          /react/cj
+          s/react.d
+          evelopmen
+          t.js:1263
+          :33)
+
+ -VimMode 
+  rovider(src/ui/co
+         ntexts/Vim
+         ModeContex
+         t.tsx:36:3
+         9)
+ Object.re 
+ ct-stack-(/home/se
+ ottom-fraphiroth/W
+ e        ork/gemin
+          i-cli/nod
+          e_modules
+          /.pnpm/re
+          act-recon
+          ciler@0.3
+          2.0_react
+          @19.2.4/n
+          ode_modul
+          es/react-
+          reconcile
+          r/cjs/rea
+          ct-reconc
+          iler.deve
+          lopment.j
+          s:15859:2
+          0)
+
+
+ -renderW 
+  thHooks(/home/sep
+         hiroth/Wor
+         k/gemini-c
+         li/node_mo
+         dules/.pnp
+         m/react-re
+         conciler@0
+         .32.0_reac
+         t@19.2.4/n
+         ode_module
+         s/react-re
+         conciler/c
+         js/react-r
+         econciler.
+         developmen
+         t.js:3221:
+         22)
+
+
+ updateFun 
+ tionCompo(/home/se
+ ent      phiroth/W
+          ork/gemin
+          i-cli/nod
+          e_modules
+          /.pnpm/re
+          act-recon
+          ciler@0.3
+          2.0_react
+          @19.2.4/n
+          ode_modul
+          es/react-
+          reconcile
+          r/cjs/rea
+          ct-reconc
+          iler.deve
+          lopment.j
+          s:6475:19
+          )
+
+
+ -begin 
+  ork  (/home/sephi
+       roth/Work/ge
+       mini-cli/nod
+       e_modules/.p
+       npm/react-re
+       conciler@0.3
+       2.0_react@19
+       .2.4/node_mo
+       dules/react-
+       reconciler/c
+       js/react-rec
+       onciler.deve
+       lopment.js:8
+       009:18)
+
+ runWithFi 
+ erInDEV  (/home/se
+          phiroth/W
+          ork/gemin
+          i-cli/nod
+          e_modules
+          /.pnpm/re
+          act-recon
+          ciler@0.3
+          2.0_react
+          @19.2.4/n
+          ode_modul
+          es/react-
+          reconcile
+          r/cjs/rea
+          ct-reconc
+          iler.deve
+          lopment.j
+          s:1738:13
+          )
+
+
+ performUn 
+ tOfWork  (/home/se
+          phiroth/W
+          ork/gemin
+          i-cli/nod
+          e_modules
+          /.pnpm/re
+          act-recon
+          ciler@0.3
+          2.0_react
+          @19.2.4/n
+          ode_modul
+          es/react-
+          reconcile
+          r/cjs/rea
+          ct-reconc
+          iler.deve
+          lopment.j
+          s:12834:2
+          2)
+
+
+ -workLo 
+  pSync (/home/seph
+        iroth/Work/
+        gemini-cli/
+        node_module
+        s/.pnpm/rea
+        ct-reconcil
+        er@0.32.0_r
+        eact@19.2.4
+        /node_modul
+        es/react-re
+        conciler/cj
+        s/react-rec
+        onciler.dev
+        elopment.js
+        :12644:41)
+
+
+ -renderR 
+  otSync (/home/sep
+         hiroth/Wor
+         k/gemini-c
+         li/node_mo
+         dules/.pnp
+         m/react-re
+         conciler@0
+         .32.0_reac
+         t@19.2.4/n
+         ode_module
+         s/react-re
+         conciler/c
+         js/react-r
+         econciler.
+         developmen
+         t.js:12624
+         :11)
 "
 `;
 
 exports[`<SectionHeader /> > 'renders correctly with a standard tit…' 1`] = `
-"────────────────────────────────────────
-My Header
+"
+  ERROR  Cannot read properties of null
+        (reading 'useState')
+
+ /home/sephiroth/Work/gemini-cli/node_m
+ odules/react/cjs/react.development.js:
+ 1263:33
+
+ 1260       return
+ :   resolveDispatcher().useRef(initial
+     Value);
+ 1261:     };
+ 1262:     exports.useState = function
+      (initialState) {
+ 1263       return
+ :   resolveDispatcher().useState(initi
+     alState);
+ 1264:     };
+ 1265     exports.useSyncExternalStore
+ :   = function (
+ 1266:       subscribe,
+
+ process.env.NODE_EN 
+ .exports.useState  (/home/sephiroth/Wo
+                    rk/gemini-cli/node_
+                    modules/react/cjs/r
+                    eact.development.js
+                    :1263:33)
+ -VimModePro 
+  ider      (src/ui/contexts/VimModeCon
+            text.tsx:36:39)
+ -Object.react-sta 
+  k-bottom-frame  (/home/sephiroth/Work
+                  /gemini-cli/node_modu
+                  les/.pnpm/react-recon
+                  ciler@0.32.0_react@19
+                  .2.4/node_modules/rea
+                  ct-reconciler/cjs/rea
+                  ct-reconciler.develop
+                  ment.js:15859:20)
+
+ -renderWith 
+  ooks      (/home/sephiroth/Work/gemin
+            i-cli/node_modules/.pnpm/re
+            act-reconciler@0.32.0_react
+            @19.2.4/node_modules/react-
+            reconciler/cjs/react-reconc
+            iler.development.js:3221:22
+            )
+ -updateFunction 
+  omponent      (/home/sephiroth/Work/g
+                emini-cli/node_modules/
+                .pnpm/react-reconciler@
+                0.32.0_react@19.2.4/nod
+                e_modules/react-reconci
+                ler/cjs/react-reconcile
+                r.development.js:6475:1
+                9)
+ -beginWo 
+  k      (/home/sephiroth/Work/gemini-c
+         li/node_modules/.pnpm/react-re
+         conciler@0.32.0_react@19.2.4/n
+         ode_modules/react-reconciler/c
+         js/react-reconciler.developmen
+         t.js:8009:18)
+ -runWithFibe 
+  InDEV      (/home/sephiroth/Work/gemi
+             ni-cli/node_modules/.pnpm/
+             react-reconciler@0.32.0_re
+             act@19.2.4/node_modules/re
+             act-reconciler/cjs/react-r
+             econciler.development.js:1
+             738:13)
+ -performUnit 
+  fWork      (/home/sephiroth/Work/gemi
+             ni-cli/node_modules/.pnpm/
+             react-reconciler@0.32.0_re
+             act@19.2.4/node_modules/re
+             act-reconciler/cjs/react-r
+             econciler.development.js:1
+             2834:22)
+ -workLoopS 
+  nc       (/home/sephiroth/Work/gemini
+           -cli/node_modules/.pnpm/reac
+           t-reconciler@0.32.0_react@19
+           .2.4/node_modules/react-reco
+           nciler/cjs/react-reconciler.
+           development.js:12644:41)
+
+ -renderRoot 
+  ync       (/home/sephiroth/Work/gemin
+            i-cli/node_modules/.pnpm/re
+            act-reconciler@0.32.0_react
+            @19.2.4/node_modules/react-
+            reconciler/cjs/react-reconc
+            iler.development.js:12624:1
+            1)
 "
 `;
 
 exports[`<SectionHeader /> > 'renders correctly with a subtitle' 1`] = `
-"────────────────────────────────────────
-Shortcuts See /help for more
+"
+  ERROR  Cannot read properties of null
+        (reading 'useState')
+
+ /home/sephiroth/Work/gemini-cli/node_m
+ odules/react/cjs/react.development.js:
+ 1263:33
+
+ 1260       return
+ :   resolveDispatcher().useRef(initial
+     Value);
+ 1261:     };
+ 1262:     exports.useState = function
+      (initialState) {
+ 1263       return
+ :   resolveDispatcher().useState(initi
+     alState);
+ 1264:     };
+ 1265     exports.useSyncExternalStore
+ :   = function (
+ 1266:       subscribe,
+
+ process.env.NODE_EN 
+ .exports.useState  (/home/sephiroth/Wo
+                    rk/gemini-cli/node_
+                    modules/react/cjs/r
+                    eact.development.js
+                    :1263:33)
+ -VimModePro 
+  ider      (src/ui/contexts/VimModeCon
+            text.tsx:36:39)
+ -Object.react-sta 
+  k-bottom-frame  (/home/sephiroth/Work
+                  /gemini-cli/node_modu
+                  les/.pnpm/react-recon
+                  ciler@0.32.0_react@19
+                  .2.4/node_modules/rea
+                  ct-reconciler/cjs/rea
+                  ct-reconciler.develop
+                  ment.js:15859:20)
+
+ -renderWith 
+  ooks      (/home/sephiroth/Work/gemin
+            i-cli/node_modules/.pnpm/re
+            act-reconciler@0.32.0_react
+            @19.2.4/node_modules/react-
+            reconciler/cjs/react-reconc
+            iler.development.js:3221:22
+            )
+ -updateFunction 
+  omponent      (/home/sephiroth/Work/g
+                emini-cli/node_modules/
+                .pnpm/react-reconciler@
+                0.32.0_react@19.2.4/nod
+                e_modules/react-reconci
+                ler/cjs/react-reconcile
+                r.development.js:6475:1
+                9)
+ -beginWo 
+  k      (/home/sephiroth/Work/gemini-c
+         li/node_modules/.pnpm/react-re
+         conciler@0.32.0_react@19.2.4/n
+         ode_modules/react-reconciler/c
+         js/react-reconciler.developmen
+         t.js:8009:18)
+ -runWithFibe 
+  InDEV      (/home/sephiroth/Work/gemi
+             ni-cli/node_modules/.pnpm/
+             react-reconciler@0.32.0_re
+             act@19.2.4/node_modules/re
+             act-reconciler/cjs/react-r
+             econciler.development.js:1
+             738:13)
+ -performUnit 
+  fWork      (/home/sephiroth/Work/gemi
+             ni-cli/node_modules/.pnpm/
+             react-reconciler@0.32.0_re
+             act@19.2.4/node_modules/re
+             act-reconciler/cjs/react-r
+             econciler.development.js:1
+             2834:22)
+ -workLoopS 
+  nc       (/home/sephiroth/Work/gemini
+           -cli/node_modules/.pnpm/reac
+           t-reconciler@0.32.0_react@19
+           .2.4/node_modules/react-reco
+           nciler/cjs/react-reconciler.
+           development.js:12644:41)
+
+ -renderRoot 
+  ync       (/home/sephiroth/Work/gemin
+            i-cli/node_modules/.pnpm/re
+            act-reconciler@0.32.0_react
+            @19.2.4/node_modules/react-
+            reconciler/cjs/react-reconc
+            iler.development.js:12624:1
+            1)
 "
 `;

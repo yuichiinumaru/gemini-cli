@@ -16,7 +16,8 @@ understand the permissions it requires and the actions it may perform."
 
 exports[`consent > maybeRequestConsentOrFail > consent string generation > should include warning when hooks are present 1`] = `
 "Installing extension "test-ext".
-⚠️  This extension contains Hooks which can automatically execute commands.
+⚠️  This extension contains Hooks which can automatically execute
+commands.
 
 The extension you are about to install may have been created by a third-party developer and sourced
 from a public repository. Google does not vet, endorse, or guarantee the functionality or security

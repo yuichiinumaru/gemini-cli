@@ -1,14 +1,48 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`LoopDetectionConfirmation > renders correctly 1`] = `
-" ╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
- │ ?  A potential loop was detected                                                                 │
- │                                                                                                  │
- │ This can happen due to repetitive tool calls or other model behavior. Do you want to keep loop   │
- │ detection enabled or disable it for this session?                                                │
- │                                                                                                  │
- │ ● 1. Keep loop detection enabled (esc)                                                           │
- │   2. Disable loop detection for this session                                                     │
- ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+"
+  ERROR  Cannot read properties of null (reading 'useState')
+
+ /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+
+ 1260:       return resolveDispatcher().useRef(initialValue);
+ 1261:     };
+ 1262:     exports.useState = function (initialState) {
+ 1263:       return resolveDispatcher().useState(initialState);
+ 1264:     };
+ 1265:     exports.useSyncExternalStore = function (
+ 1266:       subscribe,
+
+ -process.env.NODE_ENV.exports. 
+  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develop
+                               ment.js:1263:33)
+ - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
+ -Object.react-stack-bott 
+  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0
+                         _react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developmen
+                         t.js:15859:20)
+ -renderWithHoo 
+  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
+               2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
+ -updateFunctionComp 
+  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_reac
+                    t@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:6475:
+                    19)
+ -beginWor 
+          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/n
+          ode_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
+ -runWithFiberIn 
+  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
+                .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
+ -performUnitOfW 
+  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
+                .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
+ -workLoopSyn 
+             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.
+             4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
+ -renderRootSy 
+  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
+              .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
 "
 `;

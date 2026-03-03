@@ -4,9 +4,16 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { vi, describe, it, expect, beforeEach, afterEach } from 'vitest';
-import type { Mock } from 'vitest';
-import { directoryCommand } from './directoryCommand.js';
+import {
+  afterEach,
+  beforeEach,
+  describe,
+  expect,
+  it,
+  type Mock,
+  vi,
+} from 'vitest';
+import { workspaceCommand } from './workspaceCommand.js';
 import {
   expandHomeDir,
   getDirectorySuggestions,
@@ -38,14 +45,14 @@ vi.mock('../utils/directoryUtils.js', async (importOriginal) => {
   };
 });
 
-describe('directoryCommand', () => {
+describe('workspaceCommand', () => {
   let mockContext: CommandContext;
   let mockConfig: Config;
   let mockWorkspaceContext: WorkspaceContext;
-  const addCommand = directoryCommand.subCommands?.find(
+  const addCommand = workspaceCommand.subCommands?.find(
     (c) => c.name === 'add',
   );
-  const showCommand = directoryCommand.subCommands?.find(
+  const showCommand = workspaceCommand.subCommands?.find(
     (c) => c.name === 'show',
   );
 
@@ -126,7 +133,7 @@ describe('directoryCommand', () => {
         type: 'message',
         messageType: 'error',
         content:
-          'The /directory add command is not supported in restrictive sandbox profiles. Please use --include-directories when starting the session instead.',
+          'The /workspace add command is not supported in restrictive sandbox profiles. Please use --include-directories when starting the session instead.',
       });
     });
 

@@ -1,19 +1,48 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`ApiAuthDialog > renders correctly 1`] = `
-"╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
-│                                                                                                  │
-│ Enter Gemini API Key                                                                             │
-│                                                                                                  │
-│ Please enter your Gemini API key. It will be securely stored in your system keychain.            │
-│ You can get an API key from https://aistudio.google.com/app/apikey                               │
-│                                                                                                  │
-│ ╭──────────────────────────────────────────────────────────────────────────────────────────────╮ │
-│ │ Paste your API key here                                                                      │ │
-│ ╰──────────────────────────────────────────────────────────────────────────────────────────────╯ │
-│                                                                                                  │
-│ (Press Enter to submit, Esc to cancel, Ctrl+C to clear stored key)                               │
-│                                                                                                  │
-╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+"
+  ERROR  Cannot read properties of null (reading 'useRef')
+
+ /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1260:33
+
+ 1257:       return resolveDispatcher().useReducer(reducer, initialArg, init);
+ 1258:     };
+ 1259:     exports.useRef = function (initialValue) {
+ 1260:       return resolveDispatcher().useRef(initialValue);
+ 1261:     };
+ 1262:     exports.useState = function (initialState) {
+ 1263:       return resolveDispatcher().useState(initialState);
+
+ -process.env.NODE_ENV.exports 
+  useRef                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develop
+                              ment.js:1260:33)
+ - ApiAuthDialog (src/ui/auth/ApiAuthDialog.tsx:34:26)
+ -Object.react-stack-bott 
+  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
+                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
+                         ent.js:15859:20)
+ -renderWithHoo 
+  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
+               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
+ -updateFunctionComp 
+  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
+                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
+                    5:19)
+ -beginWor 
+          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
+          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
+ -runWithFiberIn 
+  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
+ -performUnitOfW 
+  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
+ -workLoopSyn 
+             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
+             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
+ -renderRootSy 
+  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
+              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
 "
 `;

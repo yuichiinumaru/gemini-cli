@@ -123,6 +123,8 @@ npm install -g @google/gemini-cli@nightly
 
 ### Advanced Capabilities
 
+- **Automated Iterative Loops**: Use [Ralph Wiggum mode](./docs/ralph-wiggum.md)
+  to repeatedly execute prompts until a goal is met (e.g., fixing tests).
 - Ground your queries with built-in
   [Google Search](https://ai.google.dev/gemini-api/docs/grounding) for real-time
   information
@@ -255,6 +257,33 @@ use `--output-format stream-json` to get newline-delimited JSON events:
 gemini -p "Run tests and deploy" --output-format stream-json
 ```
 
+### Ralph Wiggum Mode (Iterative Automation)
+
+Ralph Wiggum mode is an advanced automation feature that allows Gemini CLI to
+repeatedly execute a prompt in a loop until a specific goal is achieved. This is
+ideal for tasks like fixing failing tests or complex refactoring.
+
+To use Ralph Wiggum mode, provide a prompt and a **completion promise** (a
+string to look for in the output). The CLI will:
+
+1.  Enter **YOLO mode** to auto-approve all tool calls.
+2.  Run the prompt and check the response for your completion string.
+3.  If not found, it repeats the process up to a specified **max iterations**.
+4.  **Persistent Context**: It uses a **memory file** (`memories.md` by default)
+    to pass notes between iterations. **Note:** Use a unique `--memory-file` for
+    different tasks in the same directory to ensure context isolation.
+
+```bash
+gemini -p "Fix the failing tests in this repo" \
+  --ralph-wiggum \
+  --completion-promise "ALL TESTS PASSED" \
+  --max-iterations 5 \
+  --memory-file "task-fix-tests.md"
+```
+
+At the end of the run, a summary table displays the result of each iteration and
+extracted test statistics.
+
 ### Quick Examples
 
 #### Start a new project
@@ -301,7 +330,7 @@ gemini
 
 ### Tools & Extensions
 
-- [**Built-in Tools Overview**](./docs/tools/index.md)
+- [**Built-in Tools Overview**](./docs/reference/tools.md)
   - [File System Operations](./docs/tools/file-system.md)
   - [Shell Commands](./docs/tools/shell.md)
   - [Web Fetch & Search](./docs/tools/web-fetch.md)
@@ -315,7 +344,7 @@ gemini
 - [**Headless Mode (Scripting)**](./docs/cli/headless.md) - Use Gemini CLI in
   automated workflows.
 - [**Architecture Overview**](./docs/architecture.md) - How Gemini CLI works.
-- [**IDE Integration**](./docs/ide-integration/index.md) - VS Code companion.
+- [**IDE Integration**](./docs/ide-integration/index.md) - IDE companion.
 - [**Sandboxing & Security**](./docs/cli/sandbox.md) - Safe execution
   environments.
 - [**Trusted Folders**](./docs/cli/trusted-folders.md) - Control execution
@@ -323,7 +352,7 @@ gemini
 - [**Enterprise Guide**](./docs/cli/enterprise.md) - Deploy and manage in a
   corporate environment.
 - [**Telemetry & Monitoring**](./docs/cli/telemetry.md) - Usage tracking.
-- [**Tools API Development**](./docs/core/tools-api.md) - Create custom tools.
+- [**Tools reference**](./docs/reference/tools.md) - Built-in tools overview.
 - [**Local development**](./docs/local-development.md) - Local development
   tooling.
 
@@ -388,5 +417,5 @@ See the [Uninstall Guide](docs/cli/uninstall.md) for removal instructions.
 ---
 
 <p align="center">
-  Built with ❤️ by Google and the open source community
+  Built with ❤️ by Google, shreya, and the open source community
 </p>

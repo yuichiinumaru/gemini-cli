@@ -1,25 +1,2309 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`<HalfLinePaddedBox /> > renders iTerm2-specific blocks when iTerm2 is detected 1`] = `
-"▄▄▄▄▄▄▄▄▄▄
-Content   
-▀▀▀▀▀▀▀▀▀▀
+"
+  
+ ERRCanno
+ R  t
+    read
+    prope
+    rties
+    of
+    null
+    (read
+    ing
+    'useS
+    tate'
+    )
+
+
+ /home/se
+ phiroth/
+ Work/gem
+ ini-cli/
+ node_mod
+ ules/rea
+ ct/cjs/r
+ eact.dev
+ elopment
+ .js:1263
+ :33
+
+ 126
+ 0:
+    retur
+    n
+    resol
+    veDis
+    patch
+    er().
+    useRe
+    f(ini
+    tialV
+    alue)
+    ;
+
+
+ 126
+ 1: };
+ 126
+ 2: expor
+    ts.us
+    eStat
+    e =
+    funct
+    ion
+    (init
+    ialSt
+    ate)
+    {
+
+
+ 126     
+ 3:   
+    retur
+    n
+    resol
+    veDis
+    patch
+    er().
+    useSt
+    ate(i
+    nitia
+    lStat
+    e);
+
+
+ 126
+ 4: };
+ 126
+ 5: expor
+    ts.us
+    eSync
+    Exter
+    nalSt
+    ore =
+    funct
+    ion (
+
+
+
+
+ 126
+ 6:
+    subsc
+    ribe,
+
+
+ proc 
+ ss.e(/ho
+ v.NOme/s
+ E_ENephi
+ .exproth
+ rts./Wor
+ seStk/ge
+ te  mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/re
+     act/
+     cjs/
+     reac
+     t.de
+     velo
+     pmen
+     t.js
+     :126
+     3:33
+     )
+
+
+
+
+
+
+
+ VimM 
+ dePr(src
+ vide/ui/
+     cont
+     exts
+     /Vim
+     Mode
+     Cont
+     ext.
+     tsx:
+     36:3
+     9)
+
+
+
+ Obje 
+ t.re(/ho
+ ct-sme/s
+ ack-ephi
+ ottoroth
+ -fra/Wor
+ e   k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     5859
+     :20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ rend 
+ rWit(/ho
+ Hookme/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:3
+     221:
+     22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ upda 
+ eFun(/ho
+ tionme/s
+ ompoephi
+ ent roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:6
+     475:
+     19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ begi 
+ Work(/ho
+     me/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:8
+     009:
+     18)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ runW 
+ thFi(/ho
+ erInme/s
+ EV  ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     738:
+     13)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ perf 
+ rmUn(/ho
+ tOfWme/s
+ rk  ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2834
+     :22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ work 
+ oopS(/ho
+ nc  me/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2644
+     :41)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ rend 
+ rRoo(/ho
+ Syncme/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2624
+     :11)
 "
 `;
 
 exports[`<HalfLinePaddedBox /> > renders nothing when screen reader is enabled 1`] = `
-"Content
+"
+  
+ ERRCanno
+ R  t
+    read
+    prope
+    rties
+    of
+    null
+    (read
+    ing
+    'useS
+    tate'
+    )
+
+
+ /home/se
+ phiroth/
+ Work/gem
+ ini-cli/
+ node_mod
+ ules/rea
+ ct/cjs/r
+ eact.dev
+ elopment
+ .js:1263
+ :33
+
+ 126
+ 0:
+    retur
+    n
+    resol
+    veDis
+    patch
+    er().
+    useRe
+    f(ini
+    tialV
+    alue)
+    ;
+
+
+ 126
+ 1: };
+ 126
+ 2: expor
+    ts.us
+    eStat
+    e =
+    funct
+    ion
+    (init
+    ialSt
+    ate)
+    {
+
+
+ 126     
+ 3:   
+    retur
+    n
+    resol
+    veDis
+    patch
+    er().
+    useSt
+    ate(i
+    nitia
+    lStat
+    e);
+
+
+ 126
+ 4: };
+ 126
+ 5: expor
+    ts.us
+    eSync
+    Exter
+    nalSt
+    ore =
+    funct
+    ion (
+
+
+
+
+ 126
+ 6:
+    subsc
+    ribe,
+
+
+ proc 
+ ss.e(/ho
+ v.NOme/s
+ E_ENephi
+ .exproth
+ rts./Wor
+ seStk/ge
+ te  mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/re
+     act/
+     cjs/
+     reac
+     t.de
+     velo
+     pmen
+     t.js
+     :126
+     3:33
+     )
+
+
+
+
+
+
+
+ VimM 
+ dePr(src
+ vide/ui/
+     cont
+     exts
+     /Vim
+     Mode
+     Cont
+     ext.
+     tsx:
+     36:3
+     9)
+
+
+
+ Obje 
+ t.re(/ho
+ ct-sme/s
+ ack-ephi
+ ottoroth
+ -fra/Wor
+ e   k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     5859
+     :20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ rend 
+ rWit(/ho
+ Hookme/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:3
+     221:
+     22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ upda 
+ eFun(/ho
+ tionme/s
+ ompoephi
+ ent roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:6
+     475:
+     19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ begi 
+ Work(/ho
+     me/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:8
+     009:
+     18)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ runW 
+ thFi(/ho
+ erInme/s
+ EV  ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     738:
+     13)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ perf 
+ rmUn(/ho
+ tOfWme/s
+ rk  ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2834
+     :22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ work 
+ oopS(/ho
+ nc  me/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2644
+     :41)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ rend 
+ rRoo(/ho
+ Syncme/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2624
+     :11)
 "
 `;
 
 exports[`<HalfLinePaddedBox /> > renders nothing when useBackgroundColor is false 1`] = `
-"Content
+"
+  
+ ERRCanno
+ R  t
+    read
+    prope
+    rties
+    of
+    null
+    (read
+    ing
+    'useS
+    tate'
+    )
+
+
+ /home/se
+ phiroth/
+ Work/gem
+ ini-cli/
+ node_mod
+ ules/rea
+ ct/cjs/r
+ eact.dev
+ elopment
+ .js:1263
+ :33
+
+ 126
+ 0:
+    retur
+    n
+    resol
+    veDis
+    patch
+    er().
+    useRe
+    f(ini
+    tialV
+    alue)
+    ;
+
+
+ 126
+ 1: };
+ 126
+ 2: expor
+    ts.us
+    eStat
+    e =
+    funct
+    ion
+    (init
+    ialSt
+    ate)
+    {
+
+
+ 126     
+ 3:   
+    retur
+    n
+    resol
+    veDis
+    patch
+    er().
+    useSt
+    ate(i
+    nitia
+    lStat
+    e);
+
+
+ 126
+ 4: };
+ 126
+ 5: expor
+    ts.us
+    eSync
+    Exter
+    nalSt
+    ore =
+    funct
+    ion (
+
+
+
+
+ 126
+ 6:
+    subsc
+    ribe,
+
+
+ proc 
+ ss.e(/ho
+ v.NOme/s
+ E_ENephi
+ .exproth
+ rts./Wor
+ seStk/ge
+ te  mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/re
+     act/
+     cjs/
+     reac
+     t.de
+     velo
+     pmen
+     t.js
+     :126
+     3:33
+     )
+
+
+
+
+
+
+
+ VimM 
+ dePr(src
+ vide/ui/
+     cont
+     exts
+     /Vim
+     Mode
+     Cont
+     ext.
+     tsx:
+     36:3
+     9)
+
+
+
+ Obje 
+ t.re(/ho
+ ct-sme/s
+ ack-ephi
+ ottoroth
+ -fra/Wor
+ e   k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     5859
+     :20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ rend 
+ rWit(/ho
+ Hookme/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:3
+     221:
+     22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ upda 
+ eFun(/ho
+ tionme/s
+ ompoephi
+ ent roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:6
+     475:
+     19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ begi 
+ Work(/ho
+     me/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:8
+     009:
+     18)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ runW 
+ thFi(/ho
+ erInme/s
+ EV  ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     738:
+     13)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ perf 
+ rmUn(/ho
+ tOfWme/s
+ rk  ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2834
+     :22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ work 
+ oopS(/ho
+ nc  me/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2644
+     :41)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ rend 
+ rRoo(/ho
+ Syncme/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2624
+     :11)
 "
 `;
 
 exports[`<HalfLinePaddedBox /> > renders standard background and blocks when not iTerm2 1`] = `
-"▀▀▀▀▀▀▀▀▀▀
-Content   
-▄▄▄▄▄▄▄▄▄▄
+"
+  
+ ERRCanno
+ R  t
+    read
+    prope
+    rties
+    of
+    null
+    (read
+    ing
+    'useS
+    tate'
+    )
+
+
+ /home/se
+ phiroth/
+ Work/gem
+ ini-cli/
+ node_mod
+ ules/rea
+ ct/cjs/r
+ eact.dev
+ elopment
+ .js:1263
+ :33
+
+ 126
+ 0:
+    retur
+    n
+    resol
+    veDis
+    patch
+    er().
+    useRe
+    f(ini
+    tialV
+    alue)
+    ;
+
+
+ 126
+ 1: };
+ 126
+ 2: expor
+    ts.us
+    eStat
+    e =
+    funct
+    ion
+    (init
+    ialSt
+    ate)
+    {
+
+
+ 126     
+ 3:   
+    retur
+    n
+    resol
+    veDis
+    patch
+    er().
+    useSt
+    ate(i
+    nitia
+    lStat
+    e);
+
+
+ 126
+ 4: };
+ 126
+ 5: expor
+    ts.us
+    eSync
+    Exter
+    nalSt
+    ore =
+    funct
+    ion (
+
+
+
+
+ 126
+ 6:
+    subsc
+    ribe,
+
+
+ proc 
+ ss.e(/ho
+ v.NOme/s
+ E_ENephi
+ .exproth
+ rts./Wor
+ seStk/ge
+ te  mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/re
+     act/
+     cjs/
+     reac
+     t.de
+     velo
+     pmen
+     t.js
+     :126
+     3:33
+     )
+
+
+
+
+
+
+
+ VimM 
+ dePr(src
+ vide/ui/
+     cont
+     exts
+     /Vim
+     Mode
+     Cont
+     ext.
+     tsx:
+     36:3
+     9)
+
+
+
+ Obje 
+ t.re(/ho
+ ct-sme/s
+ ack-ephi
+ ottoroth
+ -fra/Wor
+ e   k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     5859
+     :20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ rend 
+ rWit(/ho
+ Hookme/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:3
+     221:
+     22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ upda 
+ eFun(/ho
+ tionme/s
+ ompoephi
+ ent roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:6
+     475:
+     19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ begi 
+ Work(/ho
+     me/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:8
+     009:
+     18)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ runW 
+ thFi(/ho
+ erInme/s
+ EV  ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     738:
+     13)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ perf 
+ rmUn(/ho
+ tOfWme/s
+ rk  ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2834
+     :22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ work 
+ oopS(/ho
+ nc  me/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2644
+     :41)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ rend 
+ rRoo(/ho
+ Syncme/s
+     ephi
+     roth
+     /Wor
+     k/ge
+     mini
+     -cli
+     /nod
+     e_mo
+     dule
+     s/.p
+     npm/
+     reac
+     t-re
+     conc
+     iler
+     @0.3
+     2.0_
+     reac
+     t@19
+     .2.4
+     /nod
+     e_mo
+     dule
+     s/re
+     act-
+     reco
+     ncil
+     er/c
+     js/r
+     eact
+     -rec
+     onci
+     ler.
+     deve
+     lopm
+     ent.
+     js:1
+     2624
+     :11)
 "
 `;

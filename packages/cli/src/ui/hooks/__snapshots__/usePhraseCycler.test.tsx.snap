@@ -1,11 +1,44 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`usePhraseCycler > should prioritize interactive shell waiting over normal waiting immediately 1`] = `"Waiting for user confirmation..."`;
+exports[`usePhraseCycler > should prioritize interactive shell waiting over normal waiting immediately 1`] = `
+"ERROR  Cannot read properties of null (reading 'useState')
 
-exports[`usePhraseCycler > should prioritize interactive shell waiting over normal waiting immediately 2`] = `"Interactive shell awaiting input... press tab to focus shell"`;
+ /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
 
-exports[`usePhraseCycler > should reset phrase when transitioning from waiting to active 1`] = `"Waiting for user confirmation..."`;
+ 1260:       return resolveDispatcher().useRef(initialValue);
+ 1261:     };
+ 1262:     exports.useState = function (initialState) {
+ 1263:       return resolveDispatcher().useState(initialState);
+ 1264:     };
+ 1265:     exports.useSyncExternalStore = function (
+ 1266:       subscribe,
 
-exports[`usePhraseCycler > should show "Waiting for user confirmation..." when isWaiting is true 1`] = `"Waiting for user confirmation..."`;
-
-exports[`usePhraseCycler > should show interactive shell waiting message immediately when isInteractiveShellWaiting is true 1`] = `"Interactive shell awaiting input... press tab to focus shell"`;
+ -process.env.NODE_ENV.exports. 
+  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
+                               pment.js:1263:33)
+ - usePhraseCycler (src/ui/hooks/usePhraseCycler.ts:32:59)
+ - TestComponent (src/ui/hooks/usePhraseCycler.test.tsx:33:18)
+ -Object.react-stack-bott 
+  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
+                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
+                         ent.js:15859:20)
+ -renderWithHoo 
+  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
+               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
+ -updateFunctionComp 
+  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
+                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
+                    5:19)
+ -beginWor 
+          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
+          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
+ -runWithFiberIn 
+  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
+ -performUnitOfW 
+  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
+                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
+ -workLoopSyn 
+             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
+             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)"
+`;
