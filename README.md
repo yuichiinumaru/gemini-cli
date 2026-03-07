@@ -77,7 +77,7 @@ See [Releases](./docs/releases.md) for more details.
 
 ### Preview
 
-New preview releases will be published each week at UTC 2359 on Tuesdays. These
+New preview releases will be published each week at UTC 23:59 on Tuesdays. These
 releases will not have been fully vetted and may contain regressions or other
 outstanding issues. Please help us test and install with `preview` tag.
 
@@ -87,7 +87,7 @@ npm install -g @google/gemini-cli@preview
 
 ### Stable
 
-- New stable releases will be published each week at UTC 2000 on Tuesdays, this
+- New stable releases will be published each week at UTC 20:00 on Tuesdays, this
   will be the full promotion of last week's `preview` release + any bug fixes
   and validations. Use `latest` tag.
 
@@ -97,7 +97,7 @@ npm install -g @google/gemini-cli@latest
 
 ### Nightly
 
-- New releases will be published each day at UTC 0000. This will be all changes
+- New releases will be published each day at UTC 00:00. This will be all changes
   from the main branch as represented at time of release. It should be assumed
   there are pending validations and issues. Use `nightly` tag.
 
@@ -311,14 +311,14 @@ gemini
   quickly.
 - [**Authentication Setup**](./docs/get-started/authentication.md) - Detailed
   auth configuration.
-- [**Configuration Guide**](./docs/get-started/configuration.md) - Settings and
+- [**Configuration Guide**](./docs/reference/configuration.md) - Settings and
   customization.
-- [**Keyboard Shortcuts**](./docs/cli/keyboard-shortcuts.md) - Productivity
-  tips.
+- [**Keyboard Shortcuts**](./docs/reference/keyboard-shortcuts.md) -
+  Productivity tips.
 
 ### Core Features
 
-- [**Commands Reference**](./docs/cli/commands.md) - All slash commands
+- [**Commands Reference**](./docs/reference/commands.md) - All slash commands
   (`/help`, `/chat`, etc).
 - [**Custom Commands**](./docs/cli/custom-commands.md) - Create your own
   reusable commands.
@@ -358,9 +358,9 @@ gemini
 
 ### Troubleshooting & Support
 
-- [**Troubleshooting Guide**](./docs/troubleshooting.md) - Common issues and
-  solutions.
-- [**FAQ**](./docs/faq.md) - Frequently asked questions.
+- [**Troubleshooting Guide**](./docs/resources/troubleshooting.md) - Common
+  issues and solutions.
+- [**FAQ**](./docs/resources/faq.md) - Frequently asked questions.
 - Use `/bug` command to report issues directly from the CLI.
 
 ### Using MCP Servers
@@ -406,7 +406,8 @@ for planned features and priorities.
 
 ### Uninstall
 
-See the [Uninstall Guide](docs/cli/uninstall.md) for removal instructions.
+See the [Uninstall Guide](./docs/resources/uninstall.md) for removal
+instructions.
 
 ## 📄 Legal
 

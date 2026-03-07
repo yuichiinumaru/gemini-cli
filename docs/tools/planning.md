@@ -1,8 +1,8 @@
 # Gemini CLI planning tools
 
-Planning tools let the Gemini model switch into a safe, read-only "Plan Mode"
-for researching and planning complex changes, and to signal the finalization of
-a plan to the user.
+Planning tools let the Gemini CLI switch into a safe, read-only "Plan Mode" for
+researching and planning complex changes, and to signal the finalization of a
+plan to the user.
 
 ## 1. `enter_plan_mode` (EnterPlanMode)
 

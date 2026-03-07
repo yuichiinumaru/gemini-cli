@@ -1,189 +1,187 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should handle diff with only header and no changes 1`] = `
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should correctly render a diff with a SVN diff format 1`] = `
+" 1 - const oldVar = 1;
+ 1 + const newVar = 1;
+════════════════════════════════════════════════════════════════════════════════
+20 - const anotherOld = 'test';
+20 + const anotherNew = 'test';
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should correctly render a diff with multiple hunks and a gap indicator > with terminalWidth 30 and height 6 1`] = `
+"... 10 hidden (Ctrl+O) ...
+   'test';
+21 + const anotherNew =
+   'test';
+22  console.log('end of second
+    hunk');
+"
+`;
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should correctly render a diff with multiple hunks and a gap indicator > with terminalWidth 80 and height 6 1`] = `
+"... first 4 lines hidden (Ctrl+O to show) ...
+════════════════════════════════════════════════════════════════════════════════
+20   console.log('second hunk');
+21 - const anotherOld = 'test';
+21 + const anotherNew = 'test';
+22   console.log('end of second hunk');
+"
+`;
 
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should correctly render a diff with multiple hunks and a gap indicator > with terminalWidth 80 and height undefined 1`] = `
+" 1   console.log('first hunk');
+ 2 - const oldVar = 1;
+ 2 + const newVar = 1;
+ 3   console.log('end of first hunk');
+════════════════════════════════════════════════════════════════════════════════
+20   console.log('second hunk');
+21 - const anotherOld = 'test';
+21 + const anotherNew = 'test';
+22   console.log('end of second hunk');
+"
+`;
+
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should correctly render a new file with no file extension correctly 1`] = `
+"1 FROM node:14
+2 RUN npm install
+3 RUN npm run build
+"
+`;
+
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should handle diff with only header and no changes 1`] = `
+"╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                  │
+│ No changes detected.                                                                             │
+│                                                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
 "
 `;
 
 exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should handle empty diff content 1`] = `
+"No diff content.
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should not render a gap indicator for small gaps (<= MAX_CONTEXT_LINES_WITHOUT_GAP) 1`] = `
+" 1   context line 1
+ 2   context line 2
+ 3   context line 3
+ 4   context line 4
+ 5   context line 5
+11   context line 11
+12   context line 12
+13   context line 13
+14   context line 14
+15   context line 15
+"
+`;
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should render a gap indicator for skipped lines 1`] = `
+" 1   context line 1
+ 2 - deleted line
+ 2 + added line
+════════════════════════════════════════════════════════════════════════════════
+10   context line 10
+11   context line 11
+"
+`;
 
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = false > should render diff content for existing file (not calling colorizeCode directly for the whole block) 1`] = `
+"1 - old line
+1 + new line
+"
+`;
+
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should correctly render a diff with a SVN diff format 1`] = `
+" 1 - const oldVar = 1;
+ 1 + const newVar = 1;
+════════════════════════════════════════════════════════════════════════════════
+20 - const anotherOld = 'test';
+20 + const anotherNew = 'test';
+"
+`;
+
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should correctly render a diff with multiple hunks and a gap indicator > with terminalWidth 30 and height 6 1`] = `
+"... 10 hidden (Ctrl+O) ...
+   'test';
+21 + const anotherNew =
+   'test';
+22  console.log('end of second
+    hunk');
+"
+`;
+
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should correctly render a diff with multiple hunks and a gap indicator > with terminalWidth 80 and height 6 1`] = `
+"... first 4 lines hidden (Ctrl+O to show) ...
+════════════════════════════════════════════════════════════════════════════════
+20   console.log('second hunk');
+21 - const anotherOld = 'test';
+21 + const anotherNew = 'test';
+22   console.log('end of second hunk');
+"
+`;
+
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should correctly render a diff with multiple hunks and a gap indicator > with terminalWidth 80 and height undefined 1`] = `
+" 1   console.log('first hunk');
+ 2 - const oldVar = 1;
+ 2 + const newVar = 1;
+ 3   console.log('end of first hunk');
+════════════════════════════════════════════════════════════════════════════════
+20   console.log('second hunk');
+21 - const anotherOld = 'test';
+21 + const anotherNew = 'test';
+22   console.log('end of second hunk');
+"
+`;
+
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should correctly render a new file with no file extension correctly 1`] = `
+"1 FROM node:14
+2 RUN npm install
+3 RUN npm run build
 "
 `;
 
 exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should handle diff with only header and no changes 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+"╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                  │
+│ No changes detected.                                                                             │
+│                                                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
 "
 `;
 
 exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should handle empty diff content 1`] = `
+"No diff content.
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should not render a gap indicator for small gaps (<= MAX_CONTEXT_LINES_WITHOUT_GAP) 1`] = `
+" 1   context line 1
+ 2   context line 2
+ 3   context line 3
+ 4   context line 4
+ 5   context line 5
+11   context line 11
+12   context line 12
+13   context line 13
+14   context line 14
+15   context line 15
+"
+`;
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should render a gap indicator for skipped lines 1`] = `
+" 1   context line 1
+ 2 - deleted line
+ 2 + added line
+════════════════════════════════════════════════════════════════════════════════
+10   context line 10
+11   context line 11
+"
+`;
 
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+exports[`<OverflowProvider><DiffRenderer /></OverflowProvider> > with useAlternateBuffer = true > should render diff content for existing file (not calling colorizeCode directly for the whole block) 1`] = `
+"1 - old line
+1 + new line
 "
 `;

@@ -1,95 +1,56 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`TabHeader > arrows > hides arrows when showArrows is false 1`] = `
+"□ Tab 1 │ □ Tab 2 │ □ Tab 3
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+exports[`TabHeader > arrows > shows arrows by default 1`] = `
+"← □ Tab 1 │ □ Tab 2 │ □ Tab 3 →
+"
+`;
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+exports[`TabHeader > rendering > renders all tab headers 1`] = `
+"← □ Tab 1 │ □ Tab 2 │ □ Tab 3 →
+"
+`;
 
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+exports[`TabHeader > rendering > renders separators between tabs 1`] = `
+"← □ Tab 1 │ □ Tab 2 │ □ Tab 3 →
+"
+`;
+
+exports[`TabHeader > status icons > falls back to default when renderStatusIcon returns undefined 1`] = `
+"← □ Tab 1 │ □ Tab 2 │ □ Tab 3 →
 "
 `;
 
 exports[`TabHeader > status icons > hides status icons when showStatusIcons is false 1`] = `
+"← Tab 1 │ Tab 2 │ Tab 3 →
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+exports[`TabHeader > status icons > shows checkmark for completed tabs 1`] = `
+"← ✓ Tab 1 │ □ Tab 2 │ ✓ Tab 3 →
+"
+`;
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+exports[`TabHeader > status icons > shows special icon for special tabs 1`] = `
+"← □ Tab 1 │ ≡ Review →
+"
+`;
 
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+exports[`TabHeader > status icons > shows status icons by default 1`] = `
+"← □ Tab 1 │ □ Tab 2 │ □ Tab 3 →
+"
+`;
+
+exports[`TabHeader > status icons > uses custom renderStatusIcon when provided 1`] = `
+"← • Tab 1 │ • Tab 2 │ • Tab 3 →
+"
+`;
+
+exports[`TabHeader > status icons > uses tab statusIcon when provided 1`] = `
+"← ★ Tab 1 │ □ Tab 2 →
 "
 `;

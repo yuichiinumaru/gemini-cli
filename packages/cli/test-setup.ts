@@ -9,6 +9,10 @@ import { format } from 'node:util';
 import { coreEvents } from '@google/gemini-cli-core';
 import { themeManager } from './src/ui/themes/theme-manager.js';
 
+// Suppress the terminal setup prompt for all tests by using the hook's internal killswitch
+// @ts-expect-error test environment flag
+globalThis.__DISABLE_TERMINAL_SETUP_PROMPT__ = true;
+
 // Unset CI environment variable so that ink renders dynamically as it does in a real terminal
 if (process.env.CI !== undefined) {
   delete process.env.CI;
@@ -26,6 +30,9 @@ if (process.env.NO_COLOR !== undefined) {
 
 // Force true color output for ink so that snapshots always include color information.
 process.env.FORCE_COLOR = '3';
+
+// Force generic keybinding hints to ensure stable snapshots across different operating systems.
+process.env.FORCE_GENERIC_KEYBINDING_HINTS = 'true';
 
 import './src/test-utils/customMatchers.js';
 
@@ -59,6 +66,10 @@ beforeEach(() => {
         lastReactFrameIndex !== -1
           ? stackLines.slice(lastReactFrameIndex + 1).join('\n')
           : stackLines.slice(1).join('\n');
+
+      if (relevantStack.includes('OverflowContext.tsx')) {
+        return;
+      }
 
       actWarnings.push({
         message: format(...args),

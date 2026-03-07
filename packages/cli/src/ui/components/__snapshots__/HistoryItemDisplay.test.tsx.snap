@@ -1,565 +1,404 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`<HistoryItemDisplay /> > gemini items (alternateBuffer=false) > should render a full gemini item when using availableTerminalHeightGemini 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+"✦ Example code block:
+    1 Line 1
+    2 Line 2
+    3 Line 3
+    4 Line 4
+    5 Line 5
+    6 Line 6
+    7 Line 7
+    8 Line 8
+    9 Line 9
+   10 Line 10
+   11 Line 11
+   12 Line 12
+   13 Line 13
+   14 Line 14
+   15 Line 15
+   16 Line 16
+   17 Line 17
+   18 Line 18
+   19 Line 19
+   20 Line 20
+   21 Line 21
+   22 Line 22
+   23 Line 23
+   24 Line 24
+   25 Line 25
+   26 Line 26
+   27 Line 27
+   28 Line 28
+   29 Line 29
+   30 Line 30
+   31 Line 31
+   32 Line 32
+   33 Line 33
+   34 Line 34
+   35 Line 35
+   36 Line 36
+   37 Line 37
+   38 Line 38
+   39 Line 39
+   40 Line 40
+   41 Line 41
+   42 Line 42
+   43 Line 43
+   44 Line 44
+   45 Line 45
+   46 Line 46
+   47 Line 47
+   48 Line 48
+   49 Line 49
+   50 Line 50
 "
 `;
 
 exports[`<HistoryItemDisplay /> > gemini items (alternateBuffer=false) > should render a full gemini_content item when using availableTerminalHeightGemini 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+"  Example code block:
+    1 Line 1
+    2 Line 2
+    3 Line 3
+    4 Line 4
+    5 Line 5
+    6 Line 6
+    7 Line 7
+    8 Line 8
+    9 Line 9
+   10 Line 10
+   11 Line 11
+   12 Line 12
+   13 Line 13
+   14 Line 14
+   15 Line 15
+   16 Line 16
+   17 Line 17
+   18 Line 18
+   19 Line 19
+   20 Line 20
+   21 Line 21
+   22 Line 22
+   23 Line 23
+   24 Line 24
+   25 Line 25
+   26 Line 26
+   27 Line 27
+   28 Line 28
+   29 Line 29
+   30 Line 30
+   31 Line 31
+   32 Line 32
+   33 Line 33
+   34 Line 34
+   35 Line 35
+   36 Line 36
+   37 Line 37
+   38 Line 38
+   39 Line 39
+   40 Line 40
+   41 Line 41
+   42 Line 42
+   43 Line 43
+   44 Line 44
+   45 Line 45
+   46 Line 46
+   47 Line 47
+   48 Line 48
+   49 Line 49
+   50 Line 50
 "
 `;
 
 exports[`<HistoryItemDisplay /> > gemini items (alternateBuffer=false) > should render a truncated gemini item 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+"✦ Example code block:
+   ... 42 hidden (Ctrl+O) ...
+   43 Line 43
+   44 Line 44
+   45 Line 45
+   46 Line 46
+   47 Line 47
+   48 Line 48
+   49 Line 49
+   50 Line 50
 "
 `;
 
 exports[`<HistoryItemDisplay /> > gemini items (alternateBuffer=false) > should render a truncated gemini_content item 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+"  Example code block:
+   ... 42 hidden (Ctrl+O) ...
+   43 Line 43
+   44 Line 44
+   45 Line 45
+   46 Line 46
+   47 Line 47
+   48 Line 48
+   49 Line 49
+   50 Line 50
 "
 `;
 
 exports[`<HistoryItemDisplay /> > gemini items (alternateBuffer=true) > should render a full gemini item when using availableTerminalHeightGemini 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+"✦ Example code block:
+    1 Line 1
+    2 Line 2
+    3 Line 3
+    4 Line 4
+    5 Line 5
+    6 Line 6
+    7 Line 7
+    8 Line 8
+    9 Line 9
+   10 Line 10
+   11 Line 11
+   12 Line 12
+   13 Line 13
+   14 Line 14
+   15 Line 15
+   16 Line 16
+   17 Line 17
+   18 Line 18
+   19 Line 19
+   20 Line 20
+   21 Line 21
+   22 Line 22
+   23 Line 23
+   24 Line 24
+   25 Line 25
+   26 Line 26
+   27 Line 27
+   28 Line 28
+   29 Line 29
+   30 Line 30
+   31 Line 31
+   32 Line 32
+   33 Line 33
+   34 Line 34
+   35 Line 35
+   36 Line 36
+   37 Line 37
+   38 Line 38
+   39 Line 39
+   40 Line 40
+   41 Line 41
+   42 Line 42
+   43 Line 43
+   44 Line 44
+   45 Line 45
+   46 Line 46
+   47 Line 47
+   48 Line 48
+   49 Line 49
+   50 Line 50
 "
 `;
 
 exports[`<HistoryItemDisplay /> > gemini items (alternateBuffer=true) > should render a full gemini_content item when using availableTerminalHeightGemini 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+"  Example code block:
+    1 Line 1
+    2 Line 2
+    3 Line 3
+    4 Line 4
+    5 Line 5
+    6 Line 6
+    7 Line 7
+    8 Line 8
+    9 Line 9
+   10 Line 10
+   11 Line 11
+   12 Line 12
+   13 Line 13
+   14 Line 14
+   15 Line 15
+   16 Line 16
+   17 Line 17
+   18 Line 18
+   19 Line 19
+   20 Line 20
+   21 Line 21
+   22 Line 22
+   23 Line 23
+   24 Line 24
+   25 Line 25
+   26 Line 26
+   27 Line 27
+   28 Line 28
+   29 Line 29
+   30 Line 30
+   31 Line 31
+   32 Line 32
+   33 Line 33
+   34 Line 34
+   35 Line 35
+   36 Line 36
+   37 Line 37
+   38 Line 38
+   39 Line 39
+   40 Line 40
+   41 Line 41
+   42 Line 42
+   43 Line 43
+   44 Line 44
+   45 Line 45
+   46 Line 46
+   47 Line 47
+   48 Line 48
+   49 Line 49
+   50 Line 50
 "
 `;
 
 exports[`<HistoryItemDisplay /> > gemini items (alternateBuffer=true) > should render a truncated gemini item 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+"✦ Example code block:
+    1 Line 1
+    2 Line 2
+    3 Line 3
+    4 Line 4
+    5 Line 5
+    6 Line 6
+    7 Line 7
+    8 Line 8
+    9 Line 9
+   10 Line 10
+   11 Line 11
+   12 Line 12
+   13 Line 13
+   14 Line 14
+   15 Line 15
+   16 Line 16
+   17 Line 17
+   18 Line 18
+   19 Line 19
+   20 Line 20
+   21 Line 21
+   22 Line 22
+   23 Line 23
+   24 Line 24
+   25 Line 25
+   26 Line 26
+   27 Line 27
+   28 Line 28
+   29 Line 29
+   30 Line 30
+   31 Line 31
+   32 Line 32
+   33 Line 33
+   34 Line 34
+   35 Line 35
+   36 Line 36
+   37 Line 37
+   38 Line 38
+   39 Line 39
+   40 Line 40
+   41 Line 41
+   42 Line 42
+   43 Line 43
+   44 Line 44
+   45 Line 45
+   46 Line 46
+   47 Line 47
+   48 Line 48
+   49 Line 49
+   50 Line 50
 "
 `;
 
 exports[`<HistoryItemDisplay /> > gemini items (alternateBuffer=true) > should render a truncated gemini_content item 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+"  Example code block:
+    1 Line 1
+    2 Line 2
+    3 Line 3
+    4 Line 4
+    5 Line 5
+    6 Line 6
+    7 Line 7
+    8 Line 8
+    9 Line 9
+   10 Line 10
+   11 Line 11
+   12 Line 12
+   13 Line 13
+   14 Line 14
+   15 Line 15
+   16 Line 16
+   17 Line 17
+   18 Line 18
+   19 Line 19
+   20 Line 20
+   21 Line 21
+   22 Line 22
+   23 Line 23
+   24 Line 24
+   25 Line 25
+   26 Line 26
+   27 Line 27
+   28 Line 28
+   29 Line 29
+   30 Line 30
+   31 Line 31
+   32 Line 32
+   33 Line 33
+   34 Line 34
+   35 Line 35
+   36 Line 36
+   37 Line 37
+   38 Line 38
+   39 Line 39
+   40 Line 40
+   41 Line 41
+   42 Line 42
+   43 Line 43
+   44 Line 44
+   45 Line 45
+   46 Line 46
+   47 Line 47
+   48 Line 48
+   49 Line 49
+   50 Line 50
 "
 `;
 
 exports[`<HistoryItemDisplay /> > renders AgentsStatus for "agents_list" type 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"Local Agents
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+  - Local Agent (local_agent)
+      Local agent description.
+        Second line.
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+Remote Agents
 
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+  - remote_agent
+    Remote agent description.
 "
 `;
 
 exports[`<HistoryItemDisplay /> > renders InfoMessage for "info" type with multi-line text (alternateBuffer=false) 1`] = `
 "
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+ℹ ⚡ Line 1
+  ⚡ Line 2
+  ⚡ Line 3
 "
 `;
 
 exports[`<HistoryItemDisplay /> > renders InfoMessage for "info" type with multi-line text (alternateBuffer=true) 1`] = `
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+ℹ ⚡ Line 1
+  ⚡ Line 2
+  ⚡ Line 3
+"
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+exports[`<HistoryItemDisplay /> > thinking items > renders "Thinking..." header when isFirstThinking is true 1`] = `
+" Thinking... 
+ │
+ │ Thinking
+ │ test
 "
 `;
 
 exports[`<HistoryItemDisplay /> > thinking items > renders thinking item when enabled 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+" │
+ │ Thinking
+ │ test
 "
 `;

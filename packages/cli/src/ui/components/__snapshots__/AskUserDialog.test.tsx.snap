@@ -1,563 +1,278 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`AskUserDialog > Choice question placeholder > uses default placeholder when not provided 1`] = `
+"Select your preferred language:
+
+  1.  TypeScript
+  2.  JavaScript
+● 3.  Enter a custom value                                                      
+
+Enter to submit · Esc to cancel
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:12
- 63:33
+exports[`AskUserDialog > Choice question placeholder > uses default placeholder when not provided 2`] = `
+"Select your preferred language:
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+  1.  TypeScript
+  2.  JavaScript
+● 3.  Enter a custom value
 
- -process.env.NODE_ENV.expo 
-  rts.useState             (/home/sephiroth/Work/gemini-cli/node_modules/react/
-                           cjs/react.development.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bot 
-  om-frame              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/rea
-                        ct-reconciler@0.32.0_react@19.2.4/node_modules/react-re
-                        conciler/cjs/react-reconciler.development.js:15859:20)
-
- -renderWithHo 
-  ks          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
-              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
-              econciler.development.js:3221:22)
- -updateFunctionCom 
-  onent            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-re
-                   conciler@0.32.0_react@19.2.4/node_modules/react-reconciler/c
-                   js/react-reconciler.development.js:6475:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@
-          0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconcile
-          r.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
-                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
-                ct-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
-                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
-                ct-reconciler.development.js:12834:22)
- -workLoopSy 
-  c         (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconcile
-            r@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-recon
-            ciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
-              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
-              econciler.development.js:12624:11)
+Enter to submit · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > Choice question placeholder > uses placeholder for "Other" option when provided 1`] = `
+"Select your preferred language:
+
+  1.  TypeScript
+  2.  JavaScript
+● 3.  Type another language...                                                  
+
+Enter to submit · Esc to cancel
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:12
- 63:33
+exports[`AskUserDialog > Choice question placeholder > uses placeholder for "Other" option when provided 2`] = `
+"Select your preferred language:
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+  1.  TypeScript
+  2.  JavaScript
+● 3.  Type another language...
 
- -process.env.NODE_ENV.expo 
-  rts.useState             (/home/sephiroth/Work/gemini-cli/node_modules/react/
-                           cjs/react.development.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bot 
-  om-frame              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/rea
-                        ct-reconciler@0.32.0_react@19.2.4/node_modules/react-re
-                        conciler/cjs/react-reconciler.development.js:15859:20)
+Enter to submit · Esc to cancel
+"
+`;
 
- -renderWithHo 
-  ks          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
-              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
-              econciler.development.js:3221:22)
- -updateFunctionCom 
-  onent            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-re
-                   conciler@0.32.0_react@19.2.4/node_modules/react-reconciler/c
-                   js/react-reconciler.development.js:6475:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@
-          0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconcile
-          r.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
-                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
-                ct-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
-                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
-                ct-reconciler.development.js:12834:22)
- -workLoopSy 
-  c         (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconcile
-            r@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-recon
-            ciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
-              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
-              econciler.development.js:12624:11)
+exports[`AskUserDialog > Scroll Arrows (useAlternateBuffer: false) > shows scroll arrows correctly when useAlternateBuffer is false 1`] = `
+"Choose an option
+
+▲
+●  1.  Option 1                                                                 
+       Description 1                                                            
+   2.  Option 2
+       Description 2
+▼
+
+Enter to select · ↑/↓ to navigate · Esc to cancel
+"
+`;
+
+exports[`AskUserDialog > Scroll Arrows (useAlternateBuffer: false) > shows scroll arrows correctly when useAlternateBuffer is false 2`] = `
+"Choose an option
+
+▲
+●  1.  Option 1
+       Description 1
+   2.  Option 2
+       Description 2
+▼
+
+Enter to select · ↑/↓ to navigate · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > Scroll Arrows (useAlternateBuffer: true) > shows scroll arrows correctly when useAlternateBuffer is true 1`] = `
+"Choose an option
+
+●  1.  Option 1                                                                 
+       Description 1                                                            
+   2.  Option 2
+       Description 2
+   3.  Option 3
+       Description 3
+   4.  Option 4
+       Description 4
+   5.  Option 5
+       Description 5
+   6.  Option 6
+       Description 6
+   7.  Option 7
+       Description 7
+   8.  Option 8
+       Description 8
+   9.  Option 9
+       Description 9
+  10.  Option 10
+       Description 10
+  11.  Option 11
+       Description 11
+  12.  Option 12
+       Description 12
+  13.  Option 13
+       Description 13
+  14.  Option 14
+       Description 14
+  15.  Option 15
+       Description 15
+  16.  Enter a custom value
+
+Enter to select · ↑/↓ to navigate · Esc to cancel
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+exports[`AskUserDialog > Scroll Arrows (useAlternateBuffer: true) > shows scroll arrows correctly when useAlternateBuffer is true 2`] = `
+"Choose an option
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+●  1.  Option 1
+       Description 1
+   2.  Option 2
+       Description 2
+   3.  Option 3
+       Description 3
+   4.  Option 4
+       Description 4
+   5.  Option 5
+       Description 5
+   6.  Option 6
+       Description 6
+   7.  Option 7
+       Description 7
+   8.  Option 8
+       Description 8
+   9.  Option 9
+       Description 9
+  10.  Option 10
+       Description 10
+  11.  Option 11
+       Description 11
+  12.  Option 12
+       Description 12
+  13.  Option 13
+       Description 13
+  14.  Option 14
+       Description 14
+  15.  Option 15
+       Description 15
+  16.  Enter a custom value
 
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+Enter to select · ↑/↓ to navigate · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > Text type questions > renders text input for type: "text" 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"What should we name this component?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+> e.g., UserProfileCard
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
 
- -process.env.NODE_ENV.exports.useSta 
-  e                                  (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:
-                                     33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-botto 
-  -frame                  (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node
-                          _modules/react-reconciler/cjs/react-reconciler.development.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionCompo 
-  ent                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modu
-                     les/react-reconciler/cjs/react-reconciler.development.js:6475:19)
- -beginWork 
-           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/react-
-           reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberInD 
-  V              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfWo 
-  k              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/reac
-             t-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSyn 
-               (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:12624:11)
+Enter to submit · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > Text type questions > shows correct keyboard hints for text type 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"Enter the variable name:
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+> Enter your response
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
 
- -process.env.NODE_ENV.exports.useSta 
-  e                                  (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:
-                                     33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-botto 
-  -frame                  (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node
-                          _modules/react-reconciler/cjs/react-reconciler.development.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionCompo 
-  ent                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modu
-                     les/react-reconciler/cjs/react-reconciler.development.js:6475:19)
- -beginWork 
-           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/react-
-           reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberInD 
-  V              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfWo 
-  k              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/reac
-             t-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSyn 
-               (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:12624:11)
+Enter to submit · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > Text type questions > shows default placeholder when none provided 1`] = `
+"Enter the database connection string:
+
+> Enter your response
+
+
+Enter to submit · Esc to cancel
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+exports[`AskUserDialog > allows navigating to Review tab and back 1`] = `
+"← □ Tests │ □ Docs │ ≡ Review →
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+Review your answers:
 
- -process.env.NODE_ENV.exports.useSta 
-  e                                  (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:
-                                     33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-botto 
-  -frame                  (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node
-                          _modules/react-reconciler/cjs/react-reconciler.development.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionCompo 
-  ent                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modu
-                     les/react-reconciler/cjs/react-reconciler.development.js:6475:19)
- -beginWork 
-           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/react-
-           reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberInD 
-  V              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfWo 
-  k              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/reac
-             t-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSyn 
-               (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:12624:11)
+⚠ You have 2 unanswered questions
+
+Tests → (not answered)
+Docs → (not answered)
+
+Enter to submit · Tab/Shift+Tab to edit answers · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > hides progress header for single question 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"Which authentication method should we use?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+● 1.  OAuth 2.0                                                                                                         
+      Industry standard, supports SSO                                                                                   
+  2.  JWT tokens
+      Stateless, good for APIs
+  3.  Enter a custom value
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports.useSta 
-  e                                  (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:
-                                     33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-botto 
-  -frame                  (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node
-                          _modules/react-reconciler/cjs/react-reconciler.development.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionCompo 
-  ent                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modu
-                     les/react-reconciler/cjs/react-reconciler.development.js:6475:19)
- -beginWork 
-           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/react-
-           reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberInD 
-  V              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfWo 
-  k              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/reac
-             t-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSyn 
-               (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:12624:11)
+Enter to select · ↑/↓ to navigate · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > renders question and options 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"Which authentication method should we use?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+● 1.  OAuth 2.0                                                                                                         
+      Industry standard, supports SSO                                                                                   
+  2.  JWT tokens
+      Stateless, good for APIs
+  3.  Enter a custom value
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports.useSta 
-  e                                  (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:
-                                     33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-botto 
-  -frame                  (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node
-                          _modules/react-reconciler/cjs/react-reconciler.development.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionCompo 
-  ent                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modu
-                     les/react-reconciler/cjs/react-reconciler.development.js:6475:19)
- -beginWork 
-           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/react-
-           reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberInD 
-  V              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfWo 
-  k              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/reac
-             t-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSyn 
-               (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:12624:11)
+Enter to select · ↑/↓ to navigate · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > shows Review tab in progress header for multiple questions 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"← □ Framework │ □ Styling │ ≡ Review →
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+Which framework?
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+● 1.  React                                                                                                             
+      Component library                                                                                                 
+  2.  Vue
+      Progressive framework
+  3.  Enter a custom value
 
- -process.env.NODE_ENV.exports.useSta 
-  e                                  (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:
-                                     33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-botto 
-  -frame                  (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node
-                          _modules/react-reconciler/cjs/react-reconciler.development.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionCompo 
-  ent                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modu
-                     les/react-reconciler/cjs/react-reconciler.development.js:6475:19)
- -beginWork 
-           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/react-
-           reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberInD 
-  V              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfWo 
-  k              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/reac
-             t-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSyn 
-               (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:12624:11)
+Enter to select · ←/→ to switch questions · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > shows keyboard hints 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"Which authentication method should we use?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+● 1.  OAuth 2.0                                                                                                         
+      Industry standard, supports SSO                                                                                   
+  2.  JWT tokens
+      Stateless, good for APIs
+  3.  Enter a custom value
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports.useSta 
-  e                                  (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:
-                                     33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-botto 
-  -frame                  (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node
-                          _modules/react-reconciler/cjs/react-reconciler.development.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionCompo 
-  ent                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modu
-                     les/react-reconciler/cjs/react-reconciler.development.js:6475:19)
- -beginWork 
-           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/react-
-           reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberInD 
-  V              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfWo 
-  k              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/reac
-             t-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSyn 
-               (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:12624:11)
+Enter to select · ↑/↓ to navigate · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > shows progress header for multiple questions 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"← □ Database │ □ ORM │ ≡ Review →
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+Which database should we use?
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+● 1.  PostgreSQL                                                                                                        
+      Relational database                                                                                               
+  2.  MongoDB
+      Document database
+  3.  Enter a custom value
 
- -process.env.NODE_ENV.exports.useSta 
-  e                                  (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:
-                                     33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-botto 
-  -frame                  (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node
-                          _modules/react-reconciler/cjs/react-reconciler.development.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionCompo 
-  ent                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modu
-                     les/react-reconciler/cjs/react-reconciler.development.js:6475:19)
- -beginWork 
-           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/react-
-           reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberInD 
-  V              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfWo 
-  k              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/reac
-             t-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSyn 
-               (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:12624:11)
+Enter to select · ←/→ to switch questions · Esc to cancel
 "
 `;
 
 exports[`AskUserDialog > shows warning for unanswered questions on Review tab 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"← □ License │ □ README │ ≡ Review →
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+Review your answers:
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+⚠ You have 2 unanswered questions
 
- -process.env.NODE_ENV.exports.useSta 
-  e                                  (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:
-                                     33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-botto 
-  -frame                  (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node
-                          _modules/react-reconciler/cjs/react-reconciler.development.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionCompo 
-  ent                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modu
-                     les/react-reconciler/cjs/react-reconciler.development.js:6475:19)
- -beginWork 
-           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/react-
-           reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberInD 
-  V              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfWo 
-  k              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/
-                 react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/reac
-             t-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSyn 
-               (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/node_modules/re
-               act-reconciler/cjs/react-reconciler.development.js:12624:11)
+License → (not answered)
+README → (not answered)
+
+Enter to submit · Tab/Shift+Tab to edit answers · Esc to cancel
 "
 `;

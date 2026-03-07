@@ -1,471 +1,152 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ToolConfirmationMessage > should display urls if prompt and url are different 1`] = `
+exports[`ToolConfirmationMessage > should display multiple commands for exec type when provided 1`] = `
+"echo "hello"
+
+ls -la
+
+whoami
+Allow execution of 3 commands?
+
+● 1. Allow once               
+  2. Allow for this session
+  3. No, suggest changes (esc)
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+exports[`ToolConfirmationMessage > should display urls if prompt and url are different 1`] = `
+"fetch https://github.com/google/gemini-react/blob/main/README.md
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+URLs to fetch:
+ - https://raw.githubusercontent.com/google/gemini-react/main/README.md
+Do you want to proceed?
 
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+● 1. Allow once               
+  2. Allow for this session
+  3. No, suggest changes (esc)
 "
 `;
 
 exports[`ToolConfirmationMessage > should not display urls if prompt and url are the same 1`] = `
+"https://example.com
+Do you want to proceed?
+
+● 1. Allow once               
+  2. Allow for this session
+  3. No, suggest changes (esc)
 "
-  ERROR  Cannot read properties of null (reading 'useState')
+`;
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
+exports[`ToolConfirmationMessage > should render multiline shell scripts with correct newlines and syntax highlighting (SVG snapshot) 1`] = `
+"echo "hello"
+for i in 1 2 3; do
+  echo $i
+done
+Allow execution of: 'echo'?
 
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
+● 1. Allow once               
+  2. Allow for this session
+  3. No, suggest changes (esc)
+"
+`;
 
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+exports[`ToolConfirmationMessage > should strip BiDi characters from MCP tool and server names 1`] = `
+"MCP Server: testserver
+Tool: testtool
+Allow execution of MCP tool "testtool" from server "testserver"?
+
+● 1. Allow once                             
+  2. Allow tool for this session
+  3. Allow all server tools for this session
+  4. No, suggest changes (esc)
 "
 `;
 
 exports[`ToolConfirmationMessage > with folder trust > 'for edit confirmations' > should NOT show "allow always" when folder is untrusted 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│ No changes detected.                                                         │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+Apply this change?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+● 1. Allow once                 
+  2. Modify with external editor
+  3. No, suggest changes (esc)
 "
 `;
 
 exports[`ToolConfirmationMessage > with folder trust > 'for edit confirmations' > should show "allow always" when folder is trusted 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│ No changes detected.                                                         │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+Apply this change?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+● 1. Allow once                 
+  2. Allow for this session
+  3. Modify with external editor
+  4. No, suggest changes (esc)
 "
 `;
 
 exports[`ToolConfirmationMessage > with folder trust > 'for exec confirmations' > should NOT show "allow always" when folder is untrusted 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"echo "hello"
+Allow execution of: 'echo'?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+● 1. Allow once               
+  2. No, suggest changes (esc)
 "
 `;
 
 exports[`ToolConfirmationMessage > with folder trust > 'for exec confirmations' > should show "allow always" when folder is trusted 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"echo "hello"
+Allow execution of: 'echo'?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+● 1. Allow once               
+  2. Allow for this session
+  3. No, suggest changes (esc)
 "
 `;
 
 exports[`ToolConfirmationMessage > with folder trust > 'for info confirmations' > should NOT show "allow always" when folder is untrusted 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"https://example.com
+Do you want to proceed?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+● 1. Allow once               
+  2. No, suggest changes (esc)
 "
 `;
 
 exports[`ToolConfirmationMessage > with folder trust > 'for info confirmations' > should show "allow always" when folder is trusted 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"https://example.com
+Do you want to proceed?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+● 1. Allow once               
+  2. Allow for this session
+  3. No, suggest changes (esc)
 "
 `;
 
 exports[`ToolConfirmationMessage > with folder trust > 'for mcp confirmations' > should NOT show "allow always" when folder is untrusted 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"MCP Server: test-server
+Tool: test-tool
+Allow execution of MCP tool "test-tool" from server "test-server"?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+● 1. Allow once               
+  2. No, suggest changes (esc)
 "
 `;
 
 exports[`ToolConfirmationMessage > with folder trust > 'for mcp confirmations' > should show "allow always" when folder is trusted 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
+"MCP Server: test-server
+Tool: test-tool
+Allow execution of MCP tool "test-tool" from server "test-server"?
 
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:1263:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.exports. 
-  seState                      (/home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.develo
-                               pment.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bott 
-  m-frame                (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.
-                         0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.developm
-                         ent.js:15859:20)
- -renderWithHoo 
-  s            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19
-               .2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:3221:22)
- -updateFunctionComp 
-  nent              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_rea
-                    ct@19.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:647
-                    5:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2.4/
-          node_modules/react-reconciler/cjs/react-reconciler.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@1
-                9.2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12834:22)
- -workLoopSyn 
-             (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.2
-             .4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@0.32.0_react@19.
-              2.4/node_modules/react-reconciler/cjs/react-reconciler.development.js:12624:11)
+● 1. Allow once                             
+  2. Allow tool for this session
+  3. Allow all server tools for this session
+  4. No, suggest changes (esc)
 "
 `;

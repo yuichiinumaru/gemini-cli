@@ -498,6 +498,9 @@ export function useTerminalSetupPrompt({
   addItem,
 }: UseTerminalSetupPromptParams): void {
   useEffect(() => {
+    // @ts-expect-error test environment flag
+    if (globalThis.__DISABLE_TERMINAL_SETUP_PROMPT__) return;
+
     const hasBeenPrompted = persistentState.get('terminalSetupPromptShown');
     if (hasBeenPrompted) {
       return;

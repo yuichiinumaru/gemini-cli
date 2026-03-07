@@ -1,0 +1,8 @@
+
+> @google/gemini-cli@0.34.0-nightly.20260304.28af4e127 test
+> vitest run -u
+
+
+ RUN  v3.2.4 /home/sephiroth/Work/gemini-cli/packages/cli
+      Coverage enabled with v8
+

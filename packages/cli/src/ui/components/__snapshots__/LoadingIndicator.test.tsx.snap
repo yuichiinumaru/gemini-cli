@@ -1,56 +1,7 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`<LoadingIndicator /> > should truncate long primary text instead of wrapping 1`] = `
-"
-  ERROR  Cannot read properties of null (reading 'useState')
-
- /home/sephiroth/Work/gemini-cli/node_modules/react/cjs/react.development.js:12
- 63:33
-
- 1260:       return resolveDispatcher().useRef(initialValue);
- 1261:     };
- 1262:     exports.useState = function (initialState) {
- 1263:       return resolveDispatcher().useState(initialState);
- 1264:     };
- 1265:     exports.useSyncExternalStore = function (
- 1266:       subscribe,
-
- -process.env.NODE_ENV.expo 
-  rts.useState             (/home/sephiroth/Work/gemini-cli/node_modules/react/
-                           cjs/react.development.js:1263:33)
- - VimModeProvider (src/ui/contexts/VimModeContext.tsx:36:39)
- -Object.react-stack-bot 
-  om-frame              (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/rea
-                        ct-reconciler@0.32.0_react@19.2.4/node_modules/react-re
-                        conciler/cjs/react-reconciler.development.js:15859:20)
-
- -renderWithHo 
-  ks          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
-              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
-              econciler.development.js:3221:22)
- -updateFunctionCom 
-  onent            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-re
-                   conciler@0.32.0_react@19.2.4/node_modules/react-reconciler/c
-                   js/react-reconciler.development.js:6475:19)
- -beginWor 
-          (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconciler@
-          0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-reconcile
-          r.development.js:8009:18)
- -runWithFiberIn 
-  EV            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
-                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
-                ct-reconciler.development.js:1738:13)
- -performUnitOfW 
-  rk            (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-recon
-                ciler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/rea
-                ct-reconciler.development.js:12834:22)
- -workLoopSy 
-  c         (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconcile
-            r@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-recon
-            ciler.development.js:12644:41)
- -renderRootSy 
-  c           (/home/sephiroth/Work/gemini-cli/node_modules/.pnpm/react-reconci
-              ler@0.32.0_react@19.2.4/node_modules/react-reconciler/cjs/react-r
-              econciler.development.js:12624:11)
+"MockRespondin  This is an extremely long loading phrase that shoul…(esc to
+gSpinner                                                           cancel, 5s)
 "
 `;

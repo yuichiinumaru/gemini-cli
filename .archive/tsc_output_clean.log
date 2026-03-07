@@ -1,0 +1,12 @@
+
+> @google/gemini-cli@0.34.0-nightly.20260304.28af4e127 typecheck
+> tsc --noEmit
+
+src/ui/components/RewindViewer.test.tsx(63,3): error TS2353: Object literal may only specify known properties, and 'projectHash' does not exist in type 'ConversationRecord'.
+npm error Lifecycle script `typecheck` failed with error:
+npm error code 2
+npm error path /home/sephiroth/Work/gemini-cli/packages/cli
+npm error workspace @google/gemini-cli@0.34.0-nightly.20260304.28af4e127
+npm error location /home/sephiroth/Work/gemini-cli/packages/cli
+npm error command failed
+npm error command sh -c tsc --noEmit

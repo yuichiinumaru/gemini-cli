@@ -5,6 +5,7 @@
  */
 
 import { describe, it, expect, vi, beforeEach, type Mock } from 'vitest';
+import { act } from 'react';
 import { renderWithProviders } from '../../test-utils/render.js';
 import { waitFor } from '../../test-utils/async.js';
 import { BannedAccountDialog } from './BannedAccountDialog.js';
@@ -171,7 +172,9 @@ describe('BannedAccountDialog', () => {
     );
     await waitUntilReady();
     const { onSelect } = mockedRadioButtonSelect.mock.calls[0][0];
-    onSelect('open_form');
+    act(() => {
+      onSelect('open_form');
+    });
     await waitFor(() => {
       expect(lastFrame()).toContain('Please open this URL in a browser');
     });
@@ -189,7 +192,9 @@ describe('BannedAccountDialog', () => {
     );
     await waitUntilReady();
     const { onSelect } = mockedRadioButtonSelect.mock.calls[0][0];
-    await onSelect('exit');
+    await act(async () => {
+      await onSelect('exit');
+    });
     expect(mockedRunExitCleanup).toHaveBeenCalled();
     expect(onExit).toHaveBeenCalled();
     unmount();

@@ -1,0 +1,936 @@
+index.ts(10,43): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/acpClient.test.ts(31,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/acpClient.test.ts(40,30): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/src/policy/types.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/src/policy/types.ts'.
+src/acp/acpClient.test.ts(97,49): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/acpClient.ts(50,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/acpClient.ts(944,19): error TS2322: Type 'any' is not assignable to type 'never'.
+src/acp/acpClient.ts(1167,35): error TS18046: 'error' is of type 'unknown'.
+src/acp/acpClient.ts(1508,13): error TS2322: Type 'ToolCallConfirmationDetails' is not assignable to type 'never'.
+src/acp/acpErrors.ts(7,56): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/acpResume.test.ts(23,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/acpResume.test.ts(29,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/acpResume.test.ts(48,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/commands/commandRegistry.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/commands/extensions.ts(7,32): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/commands/extensions.ts(21,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/commands/extensions.ts(164,65): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/acp/commands/init.ts(9,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/commands/memory.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/commands/restore.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/commands/restore.ts(58,35): error TS18046: 'error' is of type 'unknown'.
+src/acp/commands/restore.ts(153,15): error TS7006: Parameter 'info' implicitly has an 'any' type.
+src/acp/commands/types.ts(7,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/fileSystemService.test.ts(10,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/acp/fileSystemService.ts(7,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/configure.test.ts(17,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/configure.ts(16,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/disable.test.ts(40,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/disable.ts(10,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/enable.test.ts(25,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/enable.test.ts(40,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/enable.ts(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/install.test.ts(19,23): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/install.test.ts(72,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/install.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/link.test.ts(16,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/link.test.ts(28,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/link.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/list.test.ts(8,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/list.test.ts(19,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/list.ts(9,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/new.ts(11,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/uninstall.test.ts(62,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/uninstall.ts(9,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/update.test.ts(39,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/update.ts(17,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/utils.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/validate.test.ts(22,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/extensions/validate.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/hooks/migrate.test.ts(19,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/hooks/migrate.ts(10,46): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/mcp/add.test.ts(19,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/mcp/add.ts(10,51): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/mcp/enableDisable.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/mcp/list.test.ts(18,46): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/mcp/list.test.ts(39,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/mcp/list.ts(10,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/mcp/list.ts(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/mcp/list.ts(49,9): error TS2698: Spread types may only be created from object types.
+src/commands/mcp/remove.test.ts(22,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/mcp/remove.ts(10,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/disable.test.ts(25,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/disable.ts(9,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/enable.test.ts(24,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/enable.ts(9,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/install.ts(8,51): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/link.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/list.test.ts(8,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/list.test.ts(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/list.test.ts(20,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/list.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/commands/skills/list.ts(34,43): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/commands/skills/list.ts(37,16): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/commands/skills/list.ts(37,19): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/commands/skills/uninstall.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/auth.test.ts(7,26): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/auth.ts(7,26): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/config.integration.test.ts(20,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/config.integration.test.ts(24,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/config.test.ts(24,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/config.test.ts(31,31): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/config.test.ts(127,56): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/config/config.ts(41,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/config.ts(60,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/src/utils/extensionLoader.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/src/utils/extensionLoader.ts'.
+src/config/config.ts(595,45): error TS18046: 'err' is of type 'unknown'.
+src/config/extension-manager-agents.test.ts(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-agents.test.ts(29,51): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-hydration.test.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-hydration.test.ts(34,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-scope.test.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-scope.test.ts(22,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-scope.test.ts(122,8): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/config/extension-manager-scope.test.ts(161,8): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/config/extension-manager-scope.test.ts(198,8): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/config/extension-manager-skills.test.ts(12,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-skills.test.ts(30,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-skills.test.ts(38,42): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-themes.spec.ts(23,49): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager-themes.spec.ts(141,28): error TS2339: Property 'start' does not exist on type 'ExtensionManager'.
+src/config/extension-manager-themes.spec.ts(218,28): error TS2339: Property 'start' does not exist on type 'ExtensionManager'.
+src/config/extension-manager.test.ts(20,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager.test.ts(35,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager.ts(60,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension-manager.ts(271,61): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/config/extension-manager.ts(288,21): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/config/extension-manager.ts(298,21): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/config/extension-manager.ts(366,31): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/config/extension-manager.ts(505,28): error TS4112: This member cannot have an 'override' modifier because its containing class 'ExtensionManager' does not extend another class.
+src/config/extension-manager.ts(512,28): error TS4112: This member cannot have an 'override' modifier because its containing class 'ExtensionManager' does not extend another class.
+src/config/extension-manager.ts(531,5): error TS2322: Type 'Promise<GeminiCLIExtension[] | undefined>' is not assignable to type 'Promise<GeminiCLIExtension[]>'.
+  Type 'GeminiCLIExtension[] | undefined' is not assignable to type 'GeminiCLIExtension[]'.
+    Type 'undefined' is not assignable to type 'GeminiCLIExtension[]'.
+src/config/extension-manager.ts(552,12): error TS7006: Parameter 'ext' implicitly has an 'any' type.
+src/config/extension-manager.ts(568,11): error TS2532: Object is possibly 'undefined'.
+src/config/extension-manager.ts(568,51): error TS2551: Property 'maybeStartExtension' does not exist on type 'ExtensionManager'. Did you mean 'startExtension'?
+src/config/extension-manager.ts(577,5): error TS2322: Type 'GeminiCLIExtension[] | null' is not assignable to type 'GeminiCLIExtension[]'.
+  Type 'null' is not assignable to type 'GeminiCLIExtension[]'.
+src/config/extension-manager.ts(608,16): error TS2551: Property 'maybeStartExtension' does not exist on type 'ExtensionManager'. Did you mean 'startExtension'?
+src/config/extension-manager.ts(834,28): error TS7006: Parameter 'skill' implicitly has an 'any' type.
+src/config/extension-manager.ts(859,60): error TS7006: Parameter 'agent' implicitly has an 'any' type.
+src/config/extension-manager.ts(903,18): error TS4112: This member cannot have an 'override' modifier because its containing class 'ExtensionManager' does not extend another class.
+src/config/extension-manager.ts(921,17): error TS2551: Property 'maybeStopExtension' does not exist on type 'ExtensionManager'. Did you mean 'stopExtension'?
+src/config/extension-manager.ts(1040,39): error TS7006: Parameter 'contextFile' implicitly has an 'any' type.
+src/config/extension-manager.ts(1052,39): error TS7006: Parameter 'tool' implicitly has an 'any' type.
+src/config/extension-manager.ts(1058,33): error TS7006: Parameter 'skill' implicitly has an 'any' type.
+src/config/extension-manager.ts(1065,33): error TS7006: Parameter 'setting' implicitly has an 'any' type.
+src/config/extension-manager.ts(1103,15): error TS2339: Property 'config' does not exist on type 'ExtensionManager'.
+src/config/extension-manager.ts(1103,30): error TS2339: Property 'config' does not exist on type 'ExtensionManager'.
+src/config/extension-manager.ts(1108,16): error TS2551: Property 'maybeStopExtension' does not exist on type 'ExtensionManager'. Did you mean 'stopExtension'?
+src/config/extension-manager.ts(1138,15): error TS2339: Property 'config' does not exist on type 'ExtensionManager'.
+src/config/extension-manager.ts(1138,30): error TS2339: Property 'config' does not exist on type 'ExtensionManager'.
+src/config/extension-manager.ts(1143,16): error TS2551: Property 'maybeStartExtension' does not exist on type 'ExtensionManager'. Did you mean 'startExtension'?
+src/config/extension.test.ts(29,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension.test.ts(107,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extension.test.ts(420,32): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/extension.test.ts(423,32): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/extension.ts(11,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensionRegistryClient.test.ts(20,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensionRegistryClient.ts(7,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/consent.test.ts(22,51): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/consent.test.ts(53,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/consent.ts(9,51): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/extensionEnablement.test.ts(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/extensionEnablement.ts(9,53): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/extensionSettings.test.ts(24,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/extensionSettings.test.ts(38,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/extensionSettings.ts(16,51): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/extensionUpdates.test.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/extensionUpdates.test.ts(51,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/github.test.ts(31,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/github.test.ts(36,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/github.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/storage.test.ts(16,25): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/storage.ts(14,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/update.test.ts(23,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/update.test.ts(96,30): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/update.ts(14,54): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/extensions/variables.ts(9,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/mcp/mcpServerEnablement.test.ts(12,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/mcp/mcpServerEnablement.ts(9,37): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/policy-engine.integration.test.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/policy-engine.integration.test.ts(19,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/policy-engine.integration.test.ts(490,43): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(494,10): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(499,10): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(504,10): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(509,10): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(513,44): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(658,37): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(661,39): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(664,37): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(667,39): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy-engine.integration.test.ts(670,36): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/config/policy.test.ts(18,31): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/policy.test.ts(23,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/policy.ts(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/sandboxConfig.test.ts(7,32): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/sandboxConfig.ts(11,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/settings.test.ts(85,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/settings.test.ts(129,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/settings.ts(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/settingsSchema.ts(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/settings_repro.test.ts(76,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/settings_validation_warning.test.ts(26,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/settings_validation_warning.test.ts(32,23): error TS4112: This member cannot have an 'override' modifier because its containing class 'Storage' does not extend another class.
+src/config/settings_validation_warning.test.ts(34,16): error TS4112: This member cannot have an 'override' modifier because its containing class 'Storage' does not extend another class.
+src/config/settings_validation_warning.test.ts(36,23): error TS4112: This member cannot have an 'override' modifier because its containing class 'Storage' does not extend another class.
+src/config/trustedFolders.test.ts(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/trustedFolders.test.ts(31,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/trustedFolders.test.ts(434,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/trustedFolders.test.ts(444,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/trustedFolders.test.ts(456,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/trustedFolders.ts(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/config/workspace-policy-cli.test.ts(11,31): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/core/auth.test.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/core/auth.test.ts(18,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/core/auth.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/core/initializer.test.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/core/initializer.test.ts(21,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/core/initializer.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/deferred.test.ts(21,27): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/deferred.ts(11,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini.test.tsx(46,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini.test.tsx(77,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini.test.tsx(347,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini.test.tsx(1346,48): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini.test.tsx(1373,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini.test.tsx(1402,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini.test.tsx(1417,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini.tsx(76,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini_cleanup.test.tsx(9,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini_cleanup.test.tsx(10,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/gemini_cleanup.test.tsx(14,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/integration-tests/modelSteering.test.tsx(11,32): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/nonInteractiveCli.test.ts(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/nonInteractiveCli.test.ts(24,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/nonInteractiveCli.test.ts(60,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/nonInteractiveCli.test.ts(1787,42): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/nonInteractiveCli.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/nonInteractiveCli.ts(33,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/nonInteractiveCli.ts(461,14): error TS7006: Parameter 'tc' implicitly has an 'any' type.
+src/nonInteractiveCliCommands.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/BuiltinCommandLoader.test.ts(55,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/BuiltinCommandLoader.test.ts(56,27): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/BuiltinCommandLoader.test.ts(63,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/BuiltinCommandLoader.ts(14,50): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/BuiltinCommandLoader.ts(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/CommandService.test.ts(11,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/CommandService.ts(7,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/FileCommandLoader.test.ts(9,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/FileCommandLoader.test.ts(10,37): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/FileCommandLoader.test.ts(71,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/FileCommandLoader.ts(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/FileCommandLoader.ts(13,37): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/FileCommandLoader.ts(170,18): error TS7006: Parameter 'ext' implicitly has an 'any' type.
+src/services/FileCommandLoader.ts(171,16): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/services/FileCommandLoader.ts(171,19): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/services/FileCommandLoader.ts(173,58): error TS7006: Parameter 'ext' implicitly has an 'any' type.
+src/services/McpPromptLoader.test.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/McpPromptLoader.test.ts(12,26): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/McpPromptLoader.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/McpPromptLoader.ts(8,54): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/McpPromptLoader.ts(66,81): error TS7006: Parameter '_' implicitly has an 'any' type.
+src/services/McpPromptLoader.ts(66,154): error TS7006: Parameter 'arg' implicitly has an 'any' type.
+src/services/McpPromptLoader.ts(172,26): error TS7006: Parameter 'arg' implicitly has an 'any' type.
+src/services/McpPromptLoader.ts(188,23): error TS7006: Parameter 'argument' implicitly has an 'any' type.
+src/services/McpPromptLoader.ts(191,21): error TS7006: Parameter 'argument' implicitly has an 'any' type.
+src/services/McpPromptLoader.ts(192,24): error TS7006: Parameter 'flagArgument' implicitly has an 'any' type.
+src/services/McpPromptLoader.ts(207,63): error TS7006: Parameter 'flagArgument' implicitly has an 'any' type.
+src/services/SlashCommandConflictHandler.test.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/SlashCommandConflictHandler.test.ts(19,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/SlashCommandConflictHandler.test.ts(40,10): error TS7006: Parameter 'call' implicitly has an 'any' type.
+src/services/SlashCommandConflictHandler.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/SlashCommandConflictHandler.ts(43,52): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/services/prompt-processors/argumentProcessor.ts(7,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/prompt-processors/atFileProcessor.test.ts(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/prompt-processors/atFileProcessor.ts(11,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/prompt-processors/atFileProcessor.ts(33,43): error TS7006: Parameter 'text' implicitly has an 'any' type.
+src/services/prompt-processors/shellProcessor.test.ts(11,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/prompt-processors/shellProcessor.test.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/prompt-processors/shellProcessor.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/services/prompt-processors/shellProcessor.ts(60,38): error TS7006: Parameter 'text' implicitly has an 'any' type.
+src/test-utils/AppRig.test.tsx(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/test-utils/AppRig.tsx(33,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/test-utils/AppRig.tsx(85,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/test-utils/AppRig.tsx(292,46): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/test-utils/MockShellExecutionService.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/test-utils/createExtension.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/test-utils/mockCommandContext.ts(11,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/test-utils/mockConfig.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/test-utils/render.tsx(47,45): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/App.test.tsx(14,52): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/AppContainer.test.tsx(34,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/AppContainer.test.tsx(65,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/AppContainer.test.tsx(242,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/AppContainer.tsx(88,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/AppContainer.tsx(465,38): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/ui/IdeIntegrationNudge.test.tsx(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/IdeIntegrationNudge.test.tsx(17,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/IdeIntegrationNudge.test.tsx(44,53): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+src/ui/IdeIntegrationNudge.tsx(7,30): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/ApiAuthDialog.test.tsx(16,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/ApiAuthDialog.test.tsx(21,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/ApiAuthDialog.tsx(14,42): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/ApiAuthDialog.tsx(68,10): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/ui/auth/AuthDialog.test.tsx(19,52): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/AuthDialog.test.tsx(32,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/AuthDialog.tsx(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/AuthInProgress.test.tsx(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/AuthInProgress.test.tsx(17,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/AuthInProgress.test.tsx(43,54): error TS7019: Rest parameter 'args' implicitly has an 'any[]' type.
+src/ui/auth/BannedAccountDialog.test.tsx(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/BannedAccountDialog.test.tsx(23,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/BannedAccountDialog.tsx(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/LoginWithGoogleRestartDialog.test.tsx(16,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/LoginWithGoogleRestartDialog.tsx(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/useAuth.test.tsx(22,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/useAuth.test.tsx(33,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/useAuth.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/auth/useAuth.ts(17,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/aboutCommand.test.ts(12,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/aboutCommand.test.ts(16,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/aboutCommand.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/agentsCommand.test.ts(10,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/agentsCommand.ts(42,59): error TS7006: Parameter 'def' implicitly has an 'any' type.
+src/ui/commands/authCommand.test.ts(77,9): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/authCommand.ts(13,43): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/bugCommand.test.ts(12,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/bugCommand.test.ts(31,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/bugCommand.ts(23,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/chatCommand.test.ts(12,45): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/chatCommand.ts(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/chatCommand.ts(30,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/chatCommand.ts(209,21): error TS7006: Parameter 'm' implicitly has an 'any' type.
+src/ui/commands/chatCommand.ts(210,17): error TS7006: Parameter 'm' implicitly has an 'any' type.
+src/ui/commands/clearCommand.test.ts(23,35): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/clearCommand.test.ts(24,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/clearCommand.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/compressCommand.test.ts(11,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/copyCommand.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/copyCommand.ts(23,25): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/ui/commands/copyCommand.ts(35,17): error TS7006: Parameter 'part' implicitly has an 'any' type.
+src/ui/commands/copyCommand.ts(36,13): error TS7006: Parameter 'part' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.test.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/extensionsCommand.ts(11,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/extensionsCommand.ts(134,12): error TS7006: Parameter 'extension' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(186,14): error TS7006: Parameter 'extension' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(188,55): error TS7006: Parameter 'extension' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(194,38): error TS7006: Parameter 'extension' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(219,36): error TS7006: Parameter 'extension' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(233,6): error TS7006: Parameter 'result' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(250,13): error TS7006: Parameter 'failure' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(250,22): error TS7006: Parameter 'index' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(441,61): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(728,37): error TS7006: Parameter 'ext' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(734,37): error TS7006: Parameter 'ext' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(736,42): error TS7006: Parameter 'ext' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(737,46): error TS7006: Parameter 'name' implicitly has an 'any' type.
+src/ui/commands/extensionsCommand.ts(752,59): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/hooksCommand.test.ts(10,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/hooksCommand.test.ts(11,55): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/hooksCommand.ts(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/hooksCommand.ts(18,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/hooksCommand.ts(174,14): error TS7006: Parameter 'hook' implicitly has an 'any' type.
+src/ui/commands/hooksCommand.ts(175,11): error TS7006: Parameter 'hook' implicitly has an 'any' type.
+src/ui/commands/hooksCommand.ts(176,14): error TS7006: Parameter 'name' implicitly has an 'any' type.
+src/ui/commands/hooksCommand.ts(194,14): error TS7006: Parameter 'hook' implicitly has an 'any' type.
+src/ui/commands/hooksCommand.ts(195,11): error TS7006: Parameter 'hook' implicitly has an 'any' type.
+src/ui/commands/hooksCommand.ts(196,14): error TS7006: Parameter 'name' implicitly has an 'any' type.
+src/ui/commands/hooksCommand.ts(241,42): error TS7006: Parameter 'hook' implicitly has an 'any' type.
+src/ui/commands/hooksCommand.ts(312,41): error TS7006: Parameter 'hook' implicitly has an 'any' type.
+src/ui/commands/hooksCommand.ts(322,40): error TS7006: Parameter 'hook' implicitly has an 'any' type.
+src/ui/commands/ideCommand.test.ts(18,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/ideCommand.test.ts(19,23): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/ideCommand.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/ideCommand.ts(20,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/initCommand.test.ts(13,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/initCommand.ts(15,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/mcpCommand.test.ts(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/mcpCommand.test.ts(24,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/mcpCommand.test.ts(179,57): error TS7006: Parameter 'serverName' implicitly has an 'any' type.
+src/ui/commands/mcpCommand.ts(13,42): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/mcpCommand.ts(25,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/mcpCommand.ts(64,34): error TS18046: 'server' is of type 'unknown'.
+src/ui/commands/mcpCommand.ts(115,49): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/mcpCommand.ts(214,37): error TS7006: Parameter 'tool' implicitly has an 'any' type.
+src/ui/commands/mcpCommand.ts(220,8): error TS7006: Parameter 'prompt' implicitly has an 'any' type.
+src/ui/commands/mcpCommand.ts(227,14): error TS7006: Parameter 'entry' implicitly has an 'any' type.
+src/ui/commands/mcpCommand.ts(268,26): error TS7006: Parameter 'tool' implicitly has an 'any' type.
+src/ui/commands/mcpCommand.ts(274,30): error TS7006: Parameter 'prompt' implicitly has an 'any' type.
+src/ui/commands/mcpCommand.ts(279,34): error TS7006: Parameter 'resource' implicitly has an 'any' type.
+src/ui/commands/mcpCommand.ts(289,44): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/memoryCommand.test.ts(22,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/memoryCommand.test.ts(26,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/memoryCommand.test.ts(87,49): error TS7006: Parameter 'config' implicitly has an 'any' type.
+src/ui/commands/memoryCommand.test.ts(156,48): error TS7006: Parameter 'args' implicitly has an 'any' type.
+src/ui/commands/memoryCommand.test.ts(399,54): error TS7006: Parameter 'config' implicitly has an 'any' type.
+src/ui/commands/memoryCommand.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/modelCommand.test.ts(11,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/modelCommand.ts(10,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/planCommand.test.ts(18,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/planCommand.test.ts(23,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/planCommand.ts(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/policiesCommand.test.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/policiesCommand.ts(7,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/restoreCommand.test.ts(18,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/restoreCommand.ts(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/rewindCommand.test.tsx(17,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/rewindCommand.test.tsx(37,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/rewindCommand.tsx(27,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/rewindCommand.tsx(130,8): error TS7006: Parameter 'msg' implicitly has an 'any' type.
+src/ui/commands/setupGithubCommand.test.ts(20,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/setupGithubCommand.test.ts(21,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/setupGithubCommand.ts(23,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/skillsCommand.test.ts(12,46): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/skillsCommand.test.ts(500,7): error TS2578: Unused '@ts-expect-error' directive.
+src/ui/commands/skillsCommand.test.ts(547,7): error TS2578: Unused '@ts-expect-error' directive.
+src/ui/commands/skillsCommand.test.ts(570,7): error TS2578: Unused '@ts-expect-error' directive.
+src/ui/commands/skillsCommand.test.ts(594,7): error TS2578: Unused '@ts-expect-error' directive.
+src/ui/commands/skillsCommand.test.ts(631,7): error TS2578: Unused '@ts-expect-error' directive.
+src/ui/commands/skillsCommand.ts(21,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/skillsCommand.ts(61,43): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/skillsCommand.ts(65,25): error TS7006: Parameter 'skill' implicitly has an 'any' type.
+src/ui/commands/skillsCommand.ts(260,61): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/skillsCommand.ts(290,49): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/skillsCommand.ts(292,39): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/skillsCommand.ts(343,14): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/skillsCommand.ts(344,11): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/skillsCommand.ts(357,14): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/skillsCommand.ts(358,11): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/ui/commands/statsCommand.test.ts(13,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/statsCommand.test.ts(17,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/statsCommand.ts(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/terminalSetupCommand.ts(10,42): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/toolsCommand.test.ts(11,46): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/toolsCommand.ts(39,39): error TS7006: Parameter 'tool' implicitly has an 'any' type.
+src/ui/commands/toolsCommand.ts(43,31): error TS7006: Parameter 'tool' implicitly has an 'any' type.
+src/ui/commands/types.ts(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/workspaceCommand.test.tsx(21,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/workspaceCommand.tsx(15,49): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/workspaceCommand.tsx(21,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/commands/workspaceCommand.tsx(112,52): error TS7006: Parameter 'dir' implicitly has an 'any' type.
+src/ui/commands/workspaceCommand.tsx(284,48): error TS7006: Parameter 'dir' implicitly has an 'any' type.
+src/ui/components/AboutBox.tsx(12,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AgentConfigDialog.test.tsx(14,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AgentConfigDialog.tsx(16,53): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AlternateBufferQuittingDisplay.test.tsx(15,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AlternateBufferQuittingDisplay.test.tsx(34,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AnsiOutput.test.tsx(10,44): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AnsiOutput.tsx(9,54): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AppHeader.test.tsx(13,32): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ApprovalModeIndicator.test.tsx(10,30): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ApprovalModeIndicator.tsx(10,30): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AskUserDialog.test.tsx(12,45): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AskUserDialog.tsx(18,31): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AskUserDialog.tsx(24,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/AskUserDialog.tsx(527,50): error TS7006: Parameter 'opt' implicitly has an 'any' type.
+src/ui/components/AskUserDialog.tsx(536,10): error TS7006: Parameter 'opt' implicitly has an 'any' type.
+src/ui/components/AskUserDialog.tsx(564,39): error TS7006: Parameter 'opt' implicitly has an 'any' type.
+src/ui/components/AskUserDialog.tsx(569,10): error TS7006: Parameter 'opt' implicitly has an 'any' type.
+src/ui/components/AskUserDialog.tsx(591,32): error TS7006: Parameter 'opt' implicitly has an 'any' type.
+src/ui/components/AskUserDialog.tsx(591,37): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/ui/components/AskUserDialog.tsx(690,8): error TS7006: Parameter 'opt' implicitly has an 'any' type.
+src/ui/components/AskUserDialog.tsx(690,13): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/ui/components/BackgroundShellDisplay.test.tsx(11,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/BackgroundShellDisplay.test.tsx(32,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/BackgroundShellDisplay.tsx(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/BackgroundShellDisplay.tsx(101,69): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/ui/components/BackgroundShellDisplay.tsx(109,24): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+src/ui/components/BubblingRegression.test.tsx(12,45): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ChecklistItem.tsx(10,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ChecklistItem.tsx(23,71): error TS7030: Not all code paths return a value.
+src/ui/components/ChecklistItem.tsx(67,22): error TS7030: Not all code paths return a value.
+src/ui/components/Composer.test.tsx(31,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/Composer.test.tsx(32,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/Composer.tsx(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ConfigInitDisplay.test.tsx(26,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ConfigInitDisplay.tsx(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ContextSummaryDisplay.tsx(10,55): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ContextUsageDisplay.test.tsx(13,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/DebugProfiler.test.tsx(9,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/DebugProfiler.tsx(14,52): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/DialogManager.test.tsx(13,30): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/EditorSettingsDialog.test.tsx(15,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/EditorSettingsDialog.test.tsx(19,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/EditorSettingsDialog.tsx(25,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/EditorSettingsDialog.tsx(27,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ExitPlanModeDialog.test.tsx(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ExitPlanModeDialog.test.tsx(28,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ExitPlanModeDialog.test.tsx(166,32): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ExitPlanModeDialog.test.tsx(443,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ExitPlanModeDialog.tsx(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/FolderTrustDialog.test.tsx(12,27): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/FolderTrustDialog.tsx(24,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/FolderTrustDialog.tsx(155,50): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/ui/components/FolderTrustDialog.tsx(155,57): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/ui/components/FolderTrustDialog.tsx(168,51): error TS7006: Parameter 'warning' implicitly has an 'any' type.
+src/ui/components/FolderTrustDialog.tsx(168,60): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/ui/components/FolderTrustDialog.tsx(186,33): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/ui/components/FolderTrustDialog.tsx(186,39): error TS7006: Parameter 'idx' implicitly has an 'any' type.
+src/ui/components/Footer.test.tsx(34,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/Footer.tsx(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/Footer.tsx(376,20): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/HistoryItemDisplay.test.tsx(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/HistoryItemDisplay.test.tsx(107,9): error TS2741: Property 'displayName' is missing in type '{ name: string; description: string; kind: string; }' but required in type 'AgentDefinitionJson'.
+src/ui/components/HistoryItemDisplay.tsx(29,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/IdeTrustChangeDialog.test.tsx(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/IdeTrustChangeDialog.tsx(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/InputPrompt.test.tsx(18,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/InputPrompt.test.tsx(19,43): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/InputPrompt.tsx(42,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/InputPrompt.tsx(43,55): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/LoadingIndicator.tsx(7,37): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/MainContent.test.tsx(21,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ModelDialog.test.tsx(23,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ModelDialog.test.tsx(24,53): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ModelDialog.tsx(24,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ModelStatsDisplay.test.tsx(14,43): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ModelStatsDisplay.tsx(26,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ModelStatsDisplay.tsx(65,22): error TS18046: 'metrics' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(86,22): error TS18046: 'metrics' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(88,54): error TS18046: 'metrics' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(90,22): error TS18046: 'metrics' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(95,57): error TS18046: 'metrics' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(132,42): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(139,13): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(142,12): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(159,10): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(168,12): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(183,16): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(198,14): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(212,14): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(225,12): error TS18046: 'm' is of type 'unknown'.
+src/ui/components/ModelStatsDisplay.tsx(257,31): error TS18046: 'metrics' is of type 'unknown'.
+src/ui/components/MultiFolderTrustDialog.test.tsx(21,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/MultiFolderTrustDialog.tsx(18,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/NewAgentsNotification.tsx(9,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/Notifications.test.tsx(21,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/Notifications.test.tsx(65,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/Notifications.tsx(23,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/PolicyUpdateDialog.test.tsx(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/PolicyUpdateDialog.test.tsx(25,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/PolicyUpdateDialog.tsx(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ProQuotaDialog.test.tsx(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ProQuotaDialog.tsx(11,26): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/RewindViewer.test.tsx(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/RewindViewer.test.tsx(37,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/RewindViewer.tsx(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/RewindViewer.tsx(70,41): error TS7006: Parameter 'msg' implicitly has an 'any' type.
+src/ui/components/RewindViewer.tsx(75,48): error TS7006: Parameter 'msg' implicitly has an 'any' type.
+src/ui/components/RewindViewer.tsx(75,53): error TS7006: Parameter 'idx' implicitly has an 'any' type.
+src/ui/components/RewindViewer.tsx(158,8): error TS7006: Parameter 'm' implicitly has an 'any' type.
+src/ui/components/RewindViewer.tsx(171,18): error TS7006: Parameter 'm' implicitly has an 'any' type.
+src/ui/components/SessionBrowser.test.tsx(11,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/SessionBrowser.tsx(15,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/SessionSummaryDisplay.test.tsx(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/SessionSummaryDisplay.test.tsx(19,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/SessionSummaryDisplay.tsx(10,55): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/SettingsDialog.tsx(36,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ShellInputPrompt.test.tsx(11,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ShellInputPrompt.tsx(10,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/StatsDisplay.test.tsx(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/StatsDisplay.tsx(30,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/StatsDisplay.tsx(107,38): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/ui/components/StatsDisplay.tsx(116,10): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/ui/components/StatsDisplay.tsx(121,13): error TS7006: Parameter 'bucket' implicitly has an 'any' type.
+src/ui/components/StatusDisplay.test.tsx(14,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/Tips.test.tsx(10,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/Tips.tsx(10,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ToolConfirmationQueue.test.tsx(13,49): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ToolConfirmationQueue.test.tsx(27,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ToolConfirmationQueue.tsx(19,54): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ToolStatsDisplay.test.tsx(12,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ToolStatsDisplay.tsx(19,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ToolStatsDisplay.tsx(59,22): error TS18046: 'metrics' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(79,7): error TS18046: 'acc' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(79,21): error TS18046: 'tool' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(80,7): error TS18046: 'acc' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(80,21): error TS18046: 'tool' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(81,7): error TS18046: 'acc' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(81,21): error TS18046: 'tool' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(88,5): error TS18046: 'totalDecisions' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(88,29): error TS18046: 'totalDecisions' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(88,53): error TS18046: 'totalDecisions' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(90,26): error TS18046: 'totalDecisions' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(173,47): error TS18046: 'totalDecisions' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(183,45): error TS18046: 'totalDecisions' is of type 'unknown'.
+src/ui/components/ToolStatsDisplay.tsx(193,47): error TS18046: 'totalDecisions' is of type 'unknown'.
+src/ui/components/UserIdentity.test.tsx(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/UserIdentity.test.tsx(20,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/UserIdentity.tsx(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ValidationDialog.test.tsx(36,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/ValidationDialog.tsx(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/CompressionMessage.test.tsx(10,35): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/CompressionMessage.tsx(12,35): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ModelMessage.tsx(10,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/RedirectionConfirmation.test.tsx(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/RedirectionConfirmation.test.tsx(13,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ShellToolMessage.test.tsx(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ShellToolMessage.tsx(27,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/SubagentProgressDisplay.test.tsx(9,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/SubagentProgressDisplay.tsx(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ThinkingMessage.tsx(10,37): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/Todo.test.tsx(11,27): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/Todo.test.tsx(15,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/Todo.tsx(8,31): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/Todo.tsx(45,29): error TS7006: Parameter 'todo' implicitly has an 'any' type.
+src/ui/components/messages/ToolConfirmationMessage.test.tsx(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolConfirmationMessage.tsx(20,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolConfirmationMessage.tsx(491,59): error TS7006: Parameter 'cmd' implicitly has an 'any' type.
+src/ui/components/messages/ToolConfirmationMessage.tsx(550,39): error TS7006: Parameter 'cmd' implicitly has an 'any' type.
+src/ui/components/messages/ToolConfirmationMessage.tsx(550,44): error TS7006: Parameter 'idx' implicitly has an 'any' type.
+src/ui/components/messages/ToolConfirmationMessage.tsx(589,36): error TS7006: Parameter 'urlString' implicitly has an 'any' type.
+src/ui/components/messages/ToolGroupMessage.test.tsx(26,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolGroupMessage.tsx(24,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolMessage.test.tsx(12,53): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolMessage.tsx(24,49): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolMessageFocusHint.test.tsx(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolMessageRawMarkdown.test.tsx(13,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolOverflowConsistencyChecks.test.tsx(13,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolResultDisplay.test.tsx(10,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolResultDisplay.tsx(18,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolResultDisplayOverflow.test.tsx(12,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolShared.tsx(24,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/messages/ToolStickyHeaderRegression.test.tsx(18,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/shared/text-buffer.test.ts(45,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/shared/text-buffer.ts(18,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/shared/vim-buffer-actions.ts(23,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/triage/TriageDuplicates.tsx(10,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/triage/TriageDuplicates.tsx(11,50): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/triage/TriageIssues.tsx(10,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/triage/TriageIssues.tsx(11,50): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/views/ExtensionsList.tsx(11,54): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/views/ExtensionsList.tsx(72,46): error TS7006: Parameter 'setting' implicitly has an 'any' type.
+src/ui/components/views/McpStatus.test.tsx(10,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/views/McpStatus.test.tsx(98,20): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/views/McpStatus.tsx(7,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/views/McpStatus.tsx(8,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/components/views/SkillsList.test.tsx(10,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/AppContext.tsx(8,37): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/AskUserActionsContext.tsx(9,31): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/ConfigContext.tsx(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/KeypressContext.test.tsx(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/KeypressContext.tsx(7,42): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/MouseContext.tsx(17,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/SessionContext.test.tsx(14,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/SessionContext.tsx(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/SessionContext.tsx(22,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/SettingsContext.tsx(15,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/SettingsContext.tsx(56,9): error TS2322: Type '{ forScope: (scope: LoadableSettingScope) => SettingsFile | undefined; system: SettingsFile; systemDefaults: SettingsFile; user: SettingsFile; workspace: SettingsFile; isTrusted: boolean; errors: SettingsError[]; merged: MergedSettings; }' is not assignable to type 'SettingsState'.
+  The types returned by 'forScope(...)' are incompatible between these types.
+    Type 'SettingsFile | undefined' is not assignable to type 'SettingsFile'.
+      Type 'undefined' is not assignable to type 'SettingsFile'.
+src/ui/contexts/SettingsContext.tsx(59,17): error TS7030: Not all code paths return a value.
+src/ui/contexts/ToolActionsContext.test.tsx(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/ToolActionsContext.test.tsx(25,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/ToolActionsContext.tsx(23,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/ToolActionsContext.tsx(82,16): error TS7006: Parameter 'client' implicitly has an 'any' type.
+src/ui/contexts/ToolActionsContext.tsx(99,17): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/ui/contexts/UIActionsContext.tsx(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/contexts/UIStateContext.tsx(33,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/editors/editorSettingsManager.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/atCommandProcessor.test.ts(17,52): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/atCommandProcessor.test.ts(28,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/atCommandProcessor.test.ts(29,23): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/atCommandProcessor.ts(10,48): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/atCommandProcessor.ts(22,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/atCommandProcessor.ts(270,35): error TS18046: 'error' is of type 'unknown'.
+src/ui/hooks/atCommandProcessor_agents.test.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/atCommandProcessor_agents.test.ts(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/creditsFlowHandler.test.ts(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/creditsFlowHandler.test.ts(26,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/creditsFlowHandler.ts(27,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/shellCommandProcessor.test.tsx(40,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/shellCommandProcessor.test.tsx(79,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/shellCommandProcessor.ts(12,55): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/shellCommandProcessor.ts(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/shellCommandProcessor.ts(233,66): error TS7006: Parameter 'code' implicitly has an 'any' type.
+src/ui/hooks/shellCommandProcessor.ts(243,69): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/ui/hooks/shellCommandProcessor.ts(343,16): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/ui/hooks/shellReducer.ts(7,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/slashCommandProcessor.test.tsx(25,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/slashCommandProcessor.test.tsx(52,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/slashCommandProcessor.ts(23,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/slashCommandProcessor.ts(38,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/slashCommandProcessor.ts(531,29): error TS2322: Type 'any' is not assignable to type 'never'.
+src/ui/hooks/slashCommandProcessor.ts(540,43): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/ui/hooks/slashCommandProcessor.ts(540,49): error TS7006: Parameter 'index' implicitly has an 'any' type.
+src/ui/hooks/slashCommandProcessor.ts(567,41): error TS7006: Parameter 'resolvedOutcome' implicitly has an 'any' type.
+src/ui/hooks/slashCommandProcessor.ts(661,25): error TS2322: Type 'any' is not assignable to type 'never'.
+src/ui/hooks/toolMapping.test.ts(22,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/toolMapping.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/toolMapping.ts(92,15): error TS2322: Type 'any' is not assignable to type 'never'.
+src/ui/hooks/useAlternateBuffer.test.ts(13,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useAlternateBuffer.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useApprovalModeIndicator.test.ts(20,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useApprovalModeIndicator.test.ts(21,49): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useApprovalModeIndicator.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useAtCompletion.test.ts(13,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useAtCompletion.test.ts(18,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useAtCompletion.ts(10,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useAtCompletion.ts(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useAtCompletion.ts(123,53): error TS7006: Parameter 'resource' implicitly has an 'any' type.
+src/ui/hooks/useAtCompletion.ts(144,44): error TS7006: Parameter 'def' implicitly has an 'any' type.
+src/ui/hooks/useAtCompletion_agents.test.ts(12,46): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useCommandCompletion.test.tsx(24,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useCommandCompletion.tsx(22,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useConsoleMessages.test.tsx(11,51): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useConsoleMessages.ts(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useEditorSettings.test.tsx(29,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useEditorSettings.ts(13,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useEditorSettings.ts(20,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useExtensionUpdates.test.tsx(17,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useExtensionUpdates.test.tsx(39,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useExtensionUpdates.ts(7,54): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useExtensionUpdates.ts(22,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useExtensionUpdates.ts(37,4): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/ui/hooks/useFlickerDetector.test.ts(19,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useFlickerDetector.test.ts(20,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useFlickerDetector.test.ts(30,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useFlickerDetector.ts(10,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useFolderTrust.test.ts(26,55): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useFolderTrust.test.ts(34,19): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useFolderTrust.ts(23,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useFolderTrust.ts(46,16): error TS7006: Parameter 'results' implicitly has an 'any' type.
+src/ui/hooks/useGeminiStream.test.tsx(36,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useGeminiStream.test.tsx(52,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useGeminiStream.ts(40,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useGeminiStream.ts(54,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useGeminiStream.ts(1044,23): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<FinishReason, string | undefined>'.
+src/ui/hooks/useGeminiStream.ts(1311,19): error TS2322: Type 'GeminiEvent' is not assignable to type 'never'.
+src/ui/hooks/useGeminiStream.ts(1358,28): error TS7031: Binding element 'spanMetadata' implicitly has an 'any' type.
+src/ui/hooks/useGeminiStream.ts(1494,17): error TS18046: 'error' is of type 'unknown'.
+src/ui/hooks/useGeminiStream.ts(1497,49): error TS18046: 'error' is of type 'unknown'.
+src/ui/hooks/useGitBranchName.test.tsx(23,46): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useGitBranchName.test.tsx(28,19): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useGitBranchName.ts(8,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useHistoryManager.ts(9,43): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/src/services/chatRecordingService.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/src/services/chatRecordingService.ts'.
+src/ui/hooks/useHookDisplayState.test.ts(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useHookDisplayState.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useIdeTrustListener.test.tsx(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useIdeTrustListener.test.tsx(24,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useIdeTrustListener.test.tsx(71,73): error TS7006: Parameter 'cb' implicitly has an 'any' type.
+src/ui/hooks/useIdeTrustListener.test.tsx(75,8): error TS7006: Parameter 'cb' implicitly has an 'any' type.
+src/ui/hooks/useIdeTrustListener.ts(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useIncludeDirsTrust.test.tsx(20,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useIncludeDirsTrust.tsx(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useIncludeDirsTrust.tsx(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useInputHistoryStore.test.ts(11,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useInputHistoryStore.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useLoadingIndicator.test.tsx(18,42): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useLoadingIndicator.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useLogger.ts(8,30): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useLogger.ts(9,35): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useMcpStatus.test.tsx(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useMcpStatus.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/usePermissionsModifyTrust.test.ts(22,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/usePermissionsModifyTrust.ts(20,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/usePrivacySettings.test.tsx(10,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/usePrivacySettings.test.tsx(11,49): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/usePrivacySettings.test.tsx(18,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/usePrivacySettings.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/usePromptCompletion.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/usePromptCompletion.ts(9,55): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useQuotaAndFallback.test.ts(39,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useQuotaAndFallback.test.ts(49,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useQuotaAndFallback.ts(22,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useQuotaAndFallback.ts(73,7): error TS7006: Parameter 'failedModel' implicitly has an 'any' type.
+src/ui/hooks/useQuotaAndFallback.ts(74,7): error TS7006: Parameter 'fallbackModel' implicitly has an 'any' type.
+src/ui/hooks/useQuotaAndFallback.ts(75,7): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/ui/hooks/useQuotaAndFallback.ts(210,7): error TS7006: Parameter 'validationLink' implicitly has an 'any' type.
+src/ui/hooks/useQuotaAndFallback.ts(211,7): error TS7006: Parameter 'validationDescription' implicitly has an 'any' type.
+src/ui/hooks/useQuotaAndFallback.ts(212,7): error TS7006: Parameter 'learnMoreUrl' implicitly has an 'any' type.
+src/ui/hooks/useRewind.test.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useRewind.ts(11,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useRewind.ts(33,47): error TS7006: Parameter 'm' implicitly has an 'any' type.
+src/ui/hooks/useSelectionList.ts(10,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useSessionBrowser.test.ts(22,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useSessionBrowser.test.ts(26,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useSessionBrowser.ts(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useSessionBrowser.ts(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useSessionResume.test.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useSessionResume.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useShellCompletion.ts(12,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useShellHistory.test.ts(15,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useShellHistory.test.ts(40,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useShellHistory.ts(10,51): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useShellHistory.ts(55,29): error TS18046: 'err' is of type 'unknown'.
+src/ui/hooks/useSlashCompletion.ts(15,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useSuspend.test.ts(27,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useSuspend.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useTerminalTheme.test.tsx(10,45): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useTerminalTheme.ts(16,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useToolScheduler.test.ts(24,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useToolScheduler.test.ts(25,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/src/test-utils/mock-message-bus.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/src/test-utils/mock-message-bus.ts'.
+src/ui/hooks/useToolScheduler.test.ts(30,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useToolScheduler.test.ts(105,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(147,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(213,21): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(259,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(279,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useToolScheduler.test.ts(323,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(346,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(399,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(433,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(471,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(499,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(515,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.test.ts(555,15): error TS1355: A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.
+src/ui/hooks/useToolScheduler.ts(18,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useToolScheduler.ts(132,16): error TS7006: Parameter 'tc' implicitly has an 'any' type.
+src/ui/hooks/useToolScheduler.ts(157,10): error TS7006: Parameter 'tc' implicitly has an 'any' type.
+src/ui/hooks/useTurnActivityMonitor.test.ts(11,52): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/useTurnActivityMonitor.ts(9,32): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/hooks/vim.ts(11,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/privacy/CloudFreePrivacyNotice.test.tsx(13,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/privacy/CloudFreePrivacyNotice.tsx(11,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/privacy/PrivacyNotice.test.tsx(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/privacy/PrivacyNotice.tsx(8,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/state/extensions.ts(8,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/state/extensions.ts(72,4): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/ui/themes/theme-manager.test.ts(14,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/themes/theme-manager.test.ts(18,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/themes/theme-manager.test.ts(32,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/themes/theme-manager.ts(24,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/themes/theme-manager.ts(43,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/themes/theme.test.ts(16,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/themes/theme.ts(11,34): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/types.ts(20,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/CodeColorizer.tsx(25,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/borderStyles.test.tsx(9,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/borderStyles.ts(7,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/borderStyles.ts(67,11): error TS2339: Property 'status' does not exist on type 'never'.
+src/ui/utils/borderStyles.ts(68,11): error TS2339: Property 'status' does not exist on type 'never'.
+src/ui/utils/borderStyles.ts(69,11): error TS2339: Property 'status' does not exist on type 'never'.
+src/ui/utils/borderStyles.ts(84,23): error TS2339: Property 'name' does not exist on type 'never'.
+src/ui/utils/borderStyles.ts(85,11): error TS2339: Property 'status' does not exist on type 'never'.
+src/ui/utils/borderStyles.ts(86,11): error TS2339: Property 'ptyId' does not exist on type 'never'.
+src/ui/utils/borderStyles.ts(96,28): error TS2339: Property 'name' does not exist on type 'never'.
+src/ui/utils/clipboardUtils.test.ts(46,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/clipboardUtils.test.ts(61,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/clipboardUtils.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/clipboardUtils.windows.test.ts(15,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/clipboardUtils.windows.test.ts(48,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/commandUtils.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/computeStats.ts(39,27): error TS18046: 'model' is of type 'unknown'.
+src/ui/utils/computeStats.ts(45,28): error TS18046: 'totalApiTime' is of type 'unknown'.
+src/ui/utils/computeStats.ts(50,27): error TS18046: 'model' is of type 'unknown'.
+src/ui/utils/computeStats.ts(54,27): error TS18046: 'model' is of type 'unknown'.
+src/ui/utils/computeStats.ts(58,27): error TS18046: 'model' is of type 'unknown'.
+src/ui/utils/computeStats.ts(62,5): error TS18046: 'totalPromptTokens' is of type 'unknown'.
+src/ui/utils/computeStats.ts(62,30): error TS18046: 'totalCachedTokens' is of type 'unknown'.
+src/ui/utils/computeStats.ts(62,50): error TS18046: 'totalPromptTokens' is of type 'unknown'.
+src/ui/utils/computeStats.ts(79,5): error TS2322: Type 'unknown' is not assignable to type 'number'.
+src/ui/utils/computeStats.ts(88,5): error TS2322: Type 'unknown' is not assignable to type 'number'.
+src/ui/utils/computeStats.ts(89,5): error TS2322: Type 'unknown' is not assignable to type 'number'.
+src/ui/utils/computeStats.ts(90,5): error TS2322: Type 'unknown' is not assignable to type 'number'.
+src/ui/utils/confirmingTool.ts(7,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/contextUsage.ts(7,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/directoryUtils.test.ts(16,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/directoryUtils.ts(10,48): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/editorUtils.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/formatters.ts(10,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/markdownParsingUtils.ts(14,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/mouse.ts(7,55): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/pendingAttentionNotification.test.ts(8,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.test.ts(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.test.ts(34,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.test.ts(72,22): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.test.ts(128,22): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.test.ts(224,9): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.test.ts(274,9): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.test.ts(321,9): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.test.ts(373,9): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.test.ts(425,9): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.ts(10,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.ts(18,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/rewindFileOps.ts(154,6): error TS7006: Parameter 'm' implicitly has an 'any' type.
+src/ui/utils/terminalCapabilityManager.test.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/terminalCapabilityManager.ts(16,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/terminalSetup.test.ts(52,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/terminalSetup.ts(34,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/textUtils.test.ts(11,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/toolLayoutUtils.ts(11,36): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/ui-sizing.test.ts(9,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/ui-sizing.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/ui/utils/updateCheck.ts(9,45): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/activityLogger.test.ts(9,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/activityLogger.ts(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/activityLogger.ts(943,40): error TS7006: Parameter 'payload' implicitly has an 'any' type.
+src/utils/cleanup.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/cleanup.ts(15,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/commentJson.test.ts(12,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/commentJson.ts(9,28): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/devtoolsService.test.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/devtoolsService.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/devtoolsService.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/devtoolsService.ts(234,7): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/errors.test.ts(16,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/errors.test.ts(22,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/errors.test.ts(40,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/errors.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/errors.ts(21,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/gitUtils.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/handleAutoUpdate.ts(15,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/hookSettings.ts(12,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/installationInfo.test.ts(12,46): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/installationInfo.test.ts(16,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/installationInfo.ts(7,46): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/persistentState.test.ts(10,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/persistentState.ts(7,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/readStdin.test.ts(9,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/readStdin.ts(7,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/relaunch.test.ts(27,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/relaunch.ts(12,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/resolvePath.ts(8,25): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sandbox.test.ts(12,55): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sandbox.test.ts(80,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sandbox.ts(21,44): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sandbox.ts(28,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sandboxUtils.ts(11,41): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessionCleanup.integration.test.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessionCleanup.test.ts(14,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessionCleanup.test.ts(27,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessionCleanup.ts(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessionCleanup.ts(390,37): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/utils/sessionUtils.test.ts(15,44): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessionUtils.test.ts(16,37): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessionUtils.ts(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessionUtils.ts(296,21): error TS7006: Parameter 'msg' implicitly has an 'any' type.
+src/utils/sessionUtils.ts(298,46): error TS7006: Parameter 'msg' implicitly has an 'any' type.
+src/utils/sessionUtils.ts(597,35): error TS7006: Parameter 'tool' implicitly has an 'any' type.
+src/utils/sessions.test.ts(8,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessions.test.ts(9,38): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/sessions.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/settingsUtils.ts(15,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/settingsUtils.ts(16,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/skillUtils.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/startupWarnings.test.ts(10,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/startupWarnings.test.ts(15,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/startupWarnings.ts(10,33): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/terminalNotifications.ts(7,44): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/terminalTheme.ts(15,54): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/toolOutputCleanup.test.ts(11,47): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/userStartupWarnings.test.ts(19,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/userStartupWarnings.test.ts(32,40): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/utils/userStartupWarnings.ts(15,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/validateNonInterActiveAuth.test.ts(24,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/validateNonInterActiveAuth.test.ts(25,29): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/validateNonInterActiveAuth.ts(7,39): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+src/validateNonInterActiveAuth.ts(13,8): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.
+../test-utils/src/test-rig.ts(14,50): error TS6305: Output file '/home/sephiroth/Work/gemini-cli/packages/core/dist/index.d.ts' has not been built from source file '/home/sephiroth/Work/gemini-cli/packages/core/index.ts'.

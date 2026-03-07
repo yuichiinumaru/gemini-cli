@@ -5,6 +5,16 @@
  */
 
 import { vi } from 'vitest';
+
+vi.mock('../ui/utils/terminalSetup.js', async (importOriginal) => {
+  const actual =
+    await importOriginal<typeof import('../ui/utils/terminalSetup.js')>();
+  return {
+    ...actual,
+    shouldPromptForTerminalSetup: vi.fn().mockResolvedValue(false),
+  };
+});
+
 import { act } from 'react';
 import stripAnsi from 'strip-ansi';
 import os from 'node:os';
